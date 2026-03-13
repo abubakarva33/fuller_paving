@@ -7,11 +7,9 @@ import { IntroSection } from "@/components/IntroSection";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { CTABanner } from "@/components/CTABanner";
 import { ProcessSection } from "@/components/ProcessSection";
-import { ReviewsSection } from "@/components/ReviewsSection";
 import { FAQSection } from "@/components/FAQSection";
 import { QuickQuoteForm } from "@/components/QuickQuoteForm";
 import { WavyDivider } from "@/components/WavyDivider";
-import { reviews } from "@/data/reviews";
 import { faqs } from "@/data/faqs";
 
 interface Props {
@@ -56,13 +54,6 @@ export default function ServicePage({ params }: Props) {
       
       <CTABanner text="Professional Quality Guaranteed" phone={siteConfig.phone} />
       
-      <ReviewsSection 
-        data={{
-          title: `Our ${service.title} Reviews`,
-          text: `Read why we are the top choice for ${service.title.toLowerCase()} in the area.`,
-          list: reviews
-        }} 
-      />
       <QuickQuoteForm />
       <FAQSection data={faqs} />
     </main>

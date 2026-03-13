@@ -1,13 +1,11 @@
 import { siteConfig } from "@/data/site";
 import { services } from "@/data/services";
-import { reviews as reviewsData } from "@/data/reviews";
 import { faqs as faqsData } from "@/data/faqs";
 import { HeroSection } from "@/components/HeroSection";
 import { IntroSection } from "@/components/IntroSection";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { CTABanner } from "@/components/CTABanner";
 import { ProcessSection } from "@/components/ProcessSection";
-import { ReviewsSection } from "@/components/ReviewsSection";
 import { FAQSection } from "@/components/FAQSection";
 import { QuickQuoteForm } from "@/components/QuickQuoteForm";
 import { WavyDivider } from "@/components/WavyDivider";
@@ -69,14 +67,6 @@ export default function Home() {
       />
 
       <CTABanner text="Quality Driveways Guaranteed" phone={siteConfig.phone} />
-
-      <ReviewsSection 
-        data={{
-          title: "What Our Customers Say",
-          text: "We take pride in our work, and it shows in our customer satisfaction.",
-          list: reviewsData
-        }} 
-      />
 
       <QuickQuoteForm />
 
