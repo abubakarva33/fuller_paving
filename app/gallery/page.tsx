@@ -22,12 +22,14 @@ export default function GalleryPage() {
   return (
     <main className="min-h-screen bg-bg">
       <HeroSection 
-        data={{
-          image: images[0],
-          title: "Our Project Gallery",
-          subtitle: "Seeing is Believing - Our Recent Transformations",
-          bullets: ["Block Paving", "Resin Bound", "Tarmac", "Tar & Chip"]
-        }} 
+        data={[
+          {
+            image: "/images/block-paving3.webp",
+            title: "Our Project Gallery",
+            subtitle: "Seeing is Believing - Our Recent Transformations",
+            bullets: ["Block Paving", "Resin Bound", "Tarmac", "Tar & Chip"]
+          }
+        ]} 
       />
       
       <section className="py-24 px-4">
