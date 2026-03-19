@@ -1,6 +1,6 @@
 export const siteConfig = {
   companyName: "Fullers Paving & Improvements",
-  phone: "01603 369457", // Using from prototype as it looks active
+  phone: "", // Using from prototype as it looks active
   email: "info@nfullerspavingandimprovements.co.uk", // Derived from BRAND.md domain
   address: "14 Sergison Rd, Haywards Heath RH16 1HS",
   domain: "www.nfullerspavingandimprovements.co.uk",
