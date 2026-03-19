@@ -11,17 +11,36 @@ import { QuickQuoteForm } from "@/components/QuickQuoteForm";
 import { WavyDivider } from "@/components/WavyDivider";
 
 export default function Home() {
-  const mainService = services.find(s => s.slug === "tarmac") || services[0];
+  const homeSlides = [
+    {
+      image: "/images/tarmac1.webp",
+      title: "Highly Rated Driveway Company in Haywards Heath",
+      subtitle: "Professional Paving & Groundworks Specialists",
+      bullets: ["Free Site Surveys & Quotes", "Top Quality Materials", "Experienced & Qualified Workforce", "All Work Insured & Guaranteed"]
+    },
+    {
+      image: "/images/block-paving1.webp",
+      title: "Block Paved & Natural Stone Driveways",
+      subtitle: "Bespoke Designs to Suit Your Property",
+      bullets: ["Many Patterns, Styles & Colours", "Top Quality Materials", "Free Site Surveys & Quotes", "All Work Insured & Guaranteed"]
+    },
+    {
+      image: "/images/resin-bound1.webp",
+      title: "Gravel / Tar & Chip/ Resin Bound Driveways",
+      subtitle: "Durable & Stylish Surfacing Options",
+      bullets: ["Top Quality Materials", "Free Site Surveys & Quotes", "Choice of Aggregates & Colours", "All Work Insured & Guaranteed"]
+    },
+    {
+      image: "/images/tarmac2.webp",
+      title: "Tarmac & Block Paving Driveways",
+      subtitle: "Trusted Local Installers",
+      bullets: ["Free Site Surveys & Quotes", "Choice Colours & Designs", "Experienced & Qualified Workforce", "All Work Insured & Guaranteed"]
+    }
+  ];
 
   return (
     <main className="min-h-screen bg-white">
-      <HeroSection 
-        data={{
-          ...mainService.hero,
-          title: "Driveway Specialists Haywards Heath",
-          subtitle: "Transforming Properties with Premium Paving Solutions"
-        }} 
-      />
+      <HeroSection data={homeSlides} />
       
       <IntroSection 
         data={{

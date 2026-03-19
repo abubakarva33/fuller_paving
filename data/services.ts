@@ -1,12 +1,14 @@
+export interface HeroSlide {
+  image: string;
+  title: string;
+  subtitle: string;
+  bullets: string[];
+}
+
 export interface Service {
   slug: string;
   title: string;
-  hero: {
-    image: string;
-    title: string;
-    subtitle: string;
-    bullets: string[];
-  };
+  hero: HeroSlide[];
   intro: {
     title: string;
     subtitle: string;
@@ -30,12 +32,20 @@ export const services: Service[] = [
   {
     slug: "tarmac",
     title: "Tarmac Driveways",
-    hero: {
-      image: "https://images.unsplash.com/photo-1584888288596-f9e42be007d4?auto=format&fit=crop&q=80&w=2070",
-      title: "Tarmac Driveways Haywards Heath",
-      subtitle: "Expert Installation & Guaranteed Quality",
-      bullets: ["Commercial & Domestic Surfacing", "Top Quality Materials", "Local Trusted & Reliable", "Competitive Prices"]
-    },
+    hero: [
+      {
+        image: "/images/tarmac1.webp",
+        title: "Tarmac Driveway Experts Haywards Heath",
+        subtitle: "Expert Installation & Guaranteed Quality",
+        bullets: ["Free Surveys & No Obligation Quotes", "Plain / Custom Designs", "Hard-wearing Top Quality Materials", "Fully Insured & Guaranteed"]
+      },
+      {
+        image: "/images/tarmac2.webp",
+        title: "Quality Tarmac Driveways Haywards Heath",
+        subtitle: "Residential & Commercial Surfacing",
+        bullets: ["All Work Guaranteed", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
+      }
+    ],
     intro: {
       title: "Premium Quality Tarmac Driveways",
       subtitle: "Local & Trusted Tarmac Surfacing Specialists",
@@ -43,7 +53,7 @@ export const services: Service[] = [
         "At Fullers Paving, we specialize in laying high-quality tarmac driveways that combine durability with a sleek, professional finish. Whether you need a new driveway installation or resurfacing, our experienced team provides top-tier service tailored to your specific requirements.",
         "Tarmac is a highly popular choice for driveways due to its cost-effectiveness, quick installation time, and long-lasting properties. We ensure every project is completed to the highest standards."
       ],
-      image: "https://images.unsplash.com/photo-1621251921200-c9a405a74d2b?auto=format&fit=crop&q=80&w=800",
+      image: "/images/tarmac1.webp",
       badges: true
     },
     features: {
@@ -69,12 +79,20 @@ export const services: Service[] = [
   {
     slug: "block-paving",
     title: "Block Paving",
-    hero: {
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=2070",
-      title: "Block Paved Driveways & Paths",
-      subtitle: "Elegant, Durable & Bespoke Designs",
-      bullets: ["Wide Range of Colors & Styles", "Expert Craftsmanship", "Enhances Property Value", "Fully Guaranteed"]
-    },
+    hero: [
+      {
+        image: "/images/block-paving1.webp",
+        title: "Block Paved Driveways & Paths in Haywards Heath",
+        subtitle: "Elegant, Durable & Bespoke Designs",
+        bullets: ["Residential & Commercial Paving", "Wide range of Colours, Shapes & Textures", "Top Quality Materials", "Fully Insured & Guaranteed"]
+      },
+      {
+        image: "/images/block-paving2.webp",
+        title: "Block Paving Drives & Pathways",
+        subtitle: "Expert Craftsmanship & Quality Materials",
+        bullets: ["Free Surveys & No Obligation Quotes", "Plain / Custom Design Block Paving", "Hard-wearing Top Quality Materials", "Fully Insured & Guaranteed"]
+      }
+    ],
     intro: {
       title: "Bespoke Block Paving Specialists",
       subtitle: "Transform your home's exterior with stunning block paving.",
@@ -82,7 +100,7 @@ export const services: Service[] = [
         "Block paving is a versatile and attractive option for driveways and patios. It allows for highly customized designs, patterns, and color combinations.",
         "Our expert installers ensure a perfect finish that is not only beautiful but structurally sound and built to last."
       ],
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=800",
+      image: "/images/block-paving1.webp",
       badges: true
     },
     features: {
@@ -98,12 +116,20 @@ export const services: Service[] = [
   {
     slug: "resin-bound",
     title: "Resin Bound",
-    hero: {
-      image: "https://images.unsplash.com/photo-1590486803833-2c709d21e3ca?auto=format&fit=crop&q=80&w=2070",
-      title: "Resin Bound Driveways",
-      subtitle: "Seamless, Permeable & Stylish",
-      bullets: ["SUDS Compliant", "No Loose Stones", "Anti-Slip Surface", "Huge Color Selection"]
-    },
+    hero: [
+      {
+        image: "/images/resin-bound1.webp",
+        title: "Resin Bound Driveways & Paths in Haywards Heath",
+        subtitle: "Seamless, Permeable & Stylish",
+        bullets: ["Residential & Commercial Surfaces", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
+      },
+      {
+        image: "/images/resin-bound2.webp",
+        title: "Resin-Bound Drives & Pathways",
+        subtitle: "The ultimate choice for a contemporary driveway",
+        bullets: ["Free Surveys & No Obligation Quotes", "Plain / Custom Designs", "Hard-wearing Top Quality Materials", "Fully Insured & Guaranteed"]
+      }
+    ],
     intro: {
       title: "Modern Resin Bound Solutions",
       subtitle: "The ultimate choice for a contemporary, hard-wearing driveway.",
@@ -111,7 +137,7 @@ export const services: Service[] = [
         "Resin bound surfacing is becoming increasingly popular for its aesthetic flexibility and practical benefits. It is permeable, meaning water drains through it, reducing puddles and flood risk.",
         "Our high-quality resins are UV-stable, ensuring your driveway maintains its color and finish for many years."
       ],
-      image: "https://images.unsplash.com/photo-1590486803833-2c709d21e3ca?auto=format&fit=crop&q=80&w=800",
+      image: "/images/resin-bound1.webp",
       badges: true
     },
     features: {
@@ -127,12 +153,20 @@ export const services: Service[] = [
   {
     slug: "tar-chip",
     title: "Tar & Chip",
-    hero: {
-      image: "https://images.unsplash.com/photo-1517646287270-a5a069e83693?auto=format&fit=crop&q=80&w=2070",
-      title: "Tar & Chip Surfacing",
-      subtitle: "Traditional Look with Modern Durability",
-      bullets: ["Natural Appearance", "Cost-Effective", "Excellent Grip", "Fast Installation"]
-    },
+    hero: [
+      {
+        image: "/images/local-tar1.webp",
+        title: "Quality Tar & Chip Driveways in Haywards Heath",
+        subtitle: "Traditional Look with Modern Durability",
+        bullets: ["All Work Guaranteed", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
+      },
+      {
+        image: "/images/local-tar2.webp",
+        title: "Quality Tar & Chip Driveways East Anglia",
+        subtitle: "Durable and Attractive Alternative",
+        bullets: ["All Work Guaranteed", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
+      }
+    ],
     intro: {
       title: "Classic Tar & Chip Driveways",
       subtitle: "A durable and attractive alternative to traditional tarmac.",
@@ -140,7 +174,7 @@ export const services: Service[] = [
         "Tar and chip (also known as surface dressing) provides a textured, natural stone look that is both attractive and skid-resistant.",
         "It is an excellent choice for larger driveways and rural properties where a more traditional aesthetic is desired without the expense of full paving."
       ],
-      image: "https://images.unsplash.com/photo-1517646287270-a5a069e83693?auto=format&fit=crop&q=80&w=800",
+      image: "/images/local-tar1.webp",
       badges: true
     },
     features: {
@@ -152,5 +186,79 @@ export const services: Service[] = [
         { icon: "ShieldCheck", title: "Great Traction", text: "The textured surface provides excellent grip for vehicles and pedestrians." }
       ]
     }
+  },
+  {
+    slug: "gravel",
+    title: "Gravel & Shingle",
+    hero: [
+      {
+        image: "/images/gravel.webp",
+        title: "Gravel & Shingle Driveways Haywards Heath",
+        subtitle: "Classic & Affordable Surfacing Solutions",
+        bullets: ["Residential & Commercial Surfaces", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
+      },
+      {
+        image: "/images/gravel.webp",
+        title: "Haywards Heath Gravel Driveway Experts",
+        subtitle: "Choice of Aggregates & Colours",
+        bullets: ["Free Surveys & No Obligation Quotes", "Choice of Aggregates & Colours", "Hard-wearing Top Quality Materials", "Fully Insured & Guaranteed"]
+      }
+    ],
+    intro: {
+      title: "Professional Gravel & Shingle Installation",
+      subtitle: "An attractive and cost-effective solution for any property.",
+      text: [
+        "Gravel and shingle driveways offer a timeless appeal and are one of the most cost-effective ways to transform your property's entrance.",
+        "We offer a wide variety of aggregates in different colours and sizes to perfectly complement your home's aesthetic."
+      ],
+      image: "/images/gravel.webp",
+      badges: true
+    },
+    features: {
+      title: "Why Choose Gravel?",
+      subtitle: "Discover the unique advantages of a gravel driveway.",
+      items: [
+        { icon: "Clock", title: "Instant Kerb Appeal", text: "Provides a classic, tidy look that instantly enhances your property." },
+        { icon: "CheckCircle2", title: "Permeable", text: "Excellent drainage properties, making it an eco-friendly choice." },
+        { icon: "ShieldCheck", title: "Security Benefit", text: "The sound of crunching gravel provides an audible warning of visitors." }
+      ]
+    }
+  },
+  {
+    slug: "natural-stone",
+    title: "Natural Stone",
+    hero: [
+      {
+        image: "/images/natural-stone1.webp",
+        title: "Natural Stone Driveway Experts Haywards Heath",
+        subtitle: "Premium Paving for a Luxurious Finish",
+        bullets: ["Free Surveys & No Obligation Quotes", "Plain / Custom Designs", "Hard-wearing Top Quality Materials", "Fully Insured & Guaranteed"]
+      },
+      {
+        image: "/images/natural-stone2.webp",
+        title: "Natural Stone Driveway Specialists Haywards Heath",
+        subtitle: "Bespoke Designs Tailored to Your Home",
+        bullets: ["Residential & Commercial Surfaces", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
+      }
+    ],
+    intro: {
+      title: "Exquisite Natural Stone Paving",
+      subtitle: "Unmatched beauty and lifelong durability.",
+      text: [
+        "Natural stone is the pinnacle of driveway and patio materials, offering unique textures and colors that only Mother Nature can provide.",
+        "From sandstone to granite, we source the finest materials to create a truly bespoke and luxurious finish for your property."
+      ],
+      image: "/images/natural-stone1.webp",
+      badges: true
+    },
+    features: {
+      title: "Benefits of Natural Stone",
+      subtitle: "Why natural stone is worth the investment.",
+      items: [
+        { icon: "Star", title: "Unique Beauty", text: "No two stones are identical, ensuring your driveway is one-of-a-kind." },
+        { icon: "ShieldCheck", title: "Incredibly Durable", text: "Natural stone handles heavy wear and tear with ease and ages gracefully." },
+        { icon: "Wrench", title: "Low Maintenance", text: "Resistant to weather and easy to clean, keeping its premium look for decades." }
+      ]
+    }
   }
-];
+];;
