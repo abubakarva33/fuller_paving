@@ -2,7 +2,7 @@
 
 ## Brand Name
 
-Fullers Paving & Improvements
+N Fullers paving and improvements
 
 Company name : N Fullers paving and improvements
 Location : 14 Sergison Rd, Haywards Heath RH16 1HS
@@ -10,7 +10,7 @@ Domin name : www.nfullerspavingandimprovements.co.uk
 
 ## Logo
 
-Use `/images/logo.png`
+Use `/images/logo.webp`
 
 ## Brand Colors
 

@@ -44,13 +44,14 @@ export default function Home() {
       
       <IntroSection 
         data={{
-          title: `Welcome to ${siteConfig.companyName}`,
-          subtitle: "Your Local Paving & Groundworks Experts",
+          title: "Driveway, Paving & Surfacing Contractors in Haywards Heath",
+          subtitle: "Local Driveway Installation, Repairs & Maintenance Specialists",
           text: [
-            "With decades of collective experience, Fullers Paving & Improvements is the premier choice for homeowners and businesses seeking reliable, high-quality driveway and paving solutions. We pride ourselves on our meticulous attention to detail and commitment to customer satisfaction.",
-            "From traditional block paving to modern resin bound surfaces, we offer a comprehensive range of services tailored to enhance your property's kerb appeal and durability."
+            `At N Fullers paving and improvements, we specialise in transforming outdoor spaces with expert paving solutions. With years of experience enhancing properties across Haywards Heath and beyond, we offer a seamless service from initial design to professional installation.`,
+            "Not sure which driveway option is best for you? Our specialists will assess your space, offer expert advice and provide a no-obligation quote. Whether you want a classic, modern or bespoke driveway design, we are here to help.",
+            "Contact N Fullers paving and improvements today and let’s start designing your perfect driveway."
           ],
-          image: "https://images.unsplash.com/photo-1590486803833-2c709d21e3ca?auto=format&fit=crop&q=80&w=800",
+          image: "/images/driveway-for-home.webp",
           badges: true
         }} 
       />

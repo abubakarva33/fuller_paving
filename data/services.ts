@@ -47,13 +47,13 @@ export const services: Service[] = [
       }
     ],
     intro: {
-      title: "Premium Quality Tarmac Driveways",
-      subtitle: "Local & Trusted Tarmac Surfacing Specialists",
+      title: "Premium Quality Tarmac Driveways Haywards Heath",
+      subtitle: "Local & Trusted Tarmac Surfacing Specialists in Haywards Heath",
       text: [
-        "At Fullers Paving, we specialize in laying high-quality tarmac driveways that combine durability with a sleek, professional finish. Whether you need a new driveway installation or resurfacing, our experienced team provides top-tier service tailored to your specific requirements.",
-        "Tarmac is a highly popular choice for driveways due to its cost-effectiveness, quick installation time, and long-lasting properties. We ensure every project is completed to the highest standards."
+        "At N Fullers paving and improvements, we specialise in delivering expertly crafted tarmac driveways and surfacing solutions that are built to last. With a reputation for durability, affordability and versatility, tarmac remains one of the most popular choices for both residential and commercial properties.",
+        "Whether you’re looking to enhance your home’s kerb appeal or need a robust surface for a commercial space, our professional team is here to provide a tailored solution that meets your needs."
       ],
-      image: "/images/tarmac1.webp",
+      image: "/images/tarmac3.webp",
       badges: true
     },
     features: {
@@ -94,13 +94,13 @@ export const services: Service[] = [
       }
     ],
     intro: {
-      title: "Bespoke Block Paving Specialists",
-      subtitle: "Transform your home's exterior with stunning block paving.",
+      title: "Block Paving Driveways & Paths in Haywards Heath",
+      subtitle: "Local Block Paving Specialists",
       text: [
-        "Block paving is a versatile and attractive option for driveways and patios. It allows for highly customized designs, patterns, and color combinations.",
-        "Our expert installers ensure a perfect finish that is not only beautiful but structurally sound and built to last."
+        "At N Fullers paving and improvements, we take pride in delivering expertly crafted block paving driveways that enhance both the beauty and functionality of your outdoor space. With a solid reputation in the paving industry, we are known for our precision, high standards and use of premium materials from trusted industry suppliers.",
+        "Choosing our exceptional block paving services means you benefit from expert installation by skilled professionals, high-quality materials sourced from leading brands, and comprehensive guarantees for lasting durability and peace of mind."
       ],
-      image: "/images/block-paving1.webp",
+      image: "/images/block-paving3.webp",
       badges: true
     },
     features: {
@@ -131,13 +131,13 @@ export const services: Service[] = [
       }
     ],
     intro: {
-      title: "Modern Resin Bound Solutions",
-      subtitle: "The ultimate choice for a contemporary, hard-wearing driveway.",
+      title: "Resin Bound Driveways & Paths in Haywards Heath",
+      subtitle: "Local Resin Bound Driveway Specialists",
       text: [
-        "Resin bound surfacing is becoming increasingly popular for its aesthetic flexibility and practical benefits. It is permeable, meaning water drains through it, reducing puddles and flood risk.",
-        "Our high-quality resins are UV-stable, ensuring your driveway maintains its color and finish for many years."
+        "Resin bound driveways have become a top choice for homeowners and businesses in Haywards Heath, offering a perfect blend of durability, functionality and aesthetic appeal.",
+        "N Fullers paving and improvements advanced resin-bound driveway surfacing technique combines high-quality aggregate stones with a clear resin, creating a smooth, hard-wearing and visually striking finish. Applied over a suitable base, resin bound surfaces deliver a seamless, permeable and low-maintenance solution that enhances any outdoor space."
       ],
-      image: "/images/resin-bound1.webp",
+      image: "/images/resin-driveway3.webp",
       badges: true
     },
     features: {
@@ -168,13 +168,13 @@ export const services: Service[] = [
       }
     ],
     intro: {
-      title: "Classic Tar & Chip Driveways",
-      subtitle: "A durable and attractive alternative to traditional tarmac.",
+      title: "Tar & Chip Driveways Haywards Heath",
+      subtitle: "Local & Trusted Tar and Chip Driveway Specialists in Haywards Heath",
       text: [
-        "Tar and chip (also known as surface dressing) provides a textured, natural stone look that is both attractive and skid-resistant.",
-        "It is an excellent choice for larger driveways and rural properties where a more traditional aesthetic is desired without the expense of full paving."
+        "Tar and chip surfacing is becoming an increasingly popular alternative to resin bound driveways, offering a durable, visually appealing and budget friendly solution. This method provides many of the benefits of resin including a non-slip surface for improved grip in icy conditions, but at a fraction of the cost.",
+        "N Fullers paving and improvements are tar and chip surfacing specialists in Haywards Heath and we offer free site surveys and no obligation quotes along with free expert advice. Contact us today."
       ],
-      image: "/images/local-tar1.webp",
+      image: "/images/local-tar3.webp",
       badges: true
     },
     features: {
@@ -205,13 +205,13 @@ export const services: Service[] = [
       }
     ],
     intro: {
-      title: "Professional Gravel & Shingle Installation",
-      subtitle: "An attractive and cost-effective solution for any property.",
+      title: "Gravel Driveways Haywards Heath",
+      subtitle: "Local & Trusted Gravel Driveway Specialists in Haywards Heath",
       text: [
-        "Gravel and shingle driveways offer a timeless appeal and are one of the most cost-effective ways to transform your property's entrance.",
-        "We offer a wide variety of aggregates in different colours and sizes to perfectly complement your home's aesthetic."
+        "If you’re looking to enhance the aesthetic appeal of your property while keeping costs manageable, a gravel driveway is an excellent option. At N Fullers paving and improvements, we specialise in designing and installing stunning gravel driveways that not only elevate the look of your home but also provide a durable and low maintenance surface that stands the test of time.",
+        "Gravel driveways are a versatile and affordable alternative to tarmac, block paving or resin bound surfaces. They work particularly well for large driveways where full paving can be costly."
       ],
-      image: "/images/gravel.webp",
+      image: "/images/gravel3.webp",
       badges: true
     },
     features: {
@@ -242,13 +242,13 @@ export const services: Service[] = [
       }
     ],
     intro: {
-      title: "Exquisite Natural Stone Paving",
-      subtitle: "Unmatched beauty and lifelong durability.",
+      title: "Premium Natural Stone Driveway Paving Haywards Heath",
+      subtitle: "Local & Trusted Natural Stone Design & Paving Specialists in Haywards Heath",
       text: [
-        "Natural stone is the pinnacle of driveway and patio materials, offering unique textures and colors that only Mother Nature can provide.",
-        "From sandstone to granite, we source the finest materials to create a truly bespoke and luxurious finish for your property."
+        "At N Fullers paving and improvements, we specialise in elevating outdoor spaces with expertly designed natural stone driveways, patios and pathways. Whether you’re looking to create a stylish entrance, a charming garden walkway or a luxurious patio area, our bespoke natural stone paving solutions offer timeless beauty, functionality and added value to your property.",
+        "With years of expertise, we tailor every project to suit your vision, preferences and property style, ensuring a seamless and high quality finish that enhances your home’s exterior."
       ],
-      image: "/images/natural-stone1.webp",
+      image: "/images/natural-stone3.webp",
       badges: true
     },
     features: {
