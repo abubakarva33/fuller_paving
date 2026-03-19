@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { siteConfig } from "@/data/site";
 import { IconMapper } from "./IconMapper";
+import Image from "next/image";
 
 interface CTABannerProps {
   text: string;
@@ -10,28 +11,26 @@ interface CTABannerProps {
 }
 
 export const CTABanner = ({ text, phone }: CTABannerProps) => (
-  <section className="bg-accent py-12 px-4 text-center relative overflow-hidden group">
-    <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+  <section className="bg-accent flex items-center h-[140px] px-4 text-center relative group">
+    
     <motion.div
       initial={{ opacity: 0, scale: 0.95 }}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
-      className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-12 relative z-10"
+      className="flex flex-col items-start md:flex-row w-full items-center  space-y-6 md:space-y-0 md:space-x-12 relative z-10 max-w-7xl mx-auto"
     >
-      <div className="w-20 h-20 bg-primary rounded-2xl flex items-center justify-center text-white shrink-0 rotate-3 group-hover:rotate-0 transition-transform shadow-2xl">
-        <div className="font-black text-[10px] leading-tight text-center uppercase tracking-tighter">
-          <span className="text-accent underline decoration-2">Fullers</span><br/>Paving
-        </div>
-      </div>
-      <div className="text-left">
-        <h2 className="text-2xl md:text-4xl font-black text-white uppercase tracking-tight mb-2">
+     <div className="rounded-full bg-primary p-2">
+       <Image className="rounded-full hover:transition-transform hover:duration-500 hover:rotate-5" src="/images/logo.webp" alt="Logo" width={150} height={150} />
+     </div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <h2 className="text-2xl md:text-3xl font-black text-white capitalize tracking-tight mb-2">
           {text}
         </h2>
         <a 
           href={`tel:${phone}`} 
-          className="flex items-center text-primary text-4xl md:text-6xl font-black hover:scale-105 transition-transform origin-left"
+          className="flex items-center text-primary text-3xl md:text-4xl font-black hover:scale-105 transition-transform origin-left"
         >
-          <IconMapper name="Phone" className="w-8 h-8 md:w-12 md:h-12 mr-4" /> {phone}
+          <IconMapper name="Phone" className="w-8 h-8 md:w-10 md:h-10 mr-4" /> {phone}
         </a>
       </div>
     </motion.div>

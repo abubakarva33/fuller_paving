@@ -29,7 +29,7 @@ export const HeroSection = ({ data }: HeroProps) => {
   if (!data || data.length === 0) return null;
 
   return (
-    <section className="relative h-[75vh] min-h-[600px] flex items-center justify-center overflow-hidden bg-primary/20">
+    <section className="relative h-[75vh] min-h-[600px] flex items-center justify-center overflow-hidden bg-white/10">
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
