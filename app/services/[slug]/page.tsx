@@ -10,6 +10,7 @@ import { ProcessSection } from "@/components/ProcessSection";
 import { FAQSection } from "@/components/FAQSection";
 import { QuickQuoteForm } from "@/components/QuickQuoteForm";
 import { WavyDivider } from "@/components/WavyDivider";
+import { WhyChooseSection } from "@/components/WhyChooseSection";
 import { faqs } from "@/data/faqs";
 
 interface Props {
@@ -49,6 +50,8 @@ export default function ServicePage({ params }: Props) {
          <WavyDivider />
          <FeaturesSection data={{ ...service.features, phone: siteConfig.phone }} />
       </div>
+
+      <WhyChooseSection data={service.benefits} />
 
       {service.process && <ProcessSection data={service.process} />}
       

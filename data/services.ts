@@ -28,6 +28,11 @@ export interface Service {
     subtitle: string;
     steps: { icon: string; title: string; text: string }[];
   };
+  benefits: {
+    title: string;
+    text: string[];
+    items: { title: string; text: string }[];
+  };
 }
 
 export const services: Service[] = [
@@ -90,6 +95,20 @@ export const services: Service[] = [
         { icon: "Check", title: "Professional Laying", text: "Our skilled team lays the tarmac to a flawless, smooth finish." }
       ]
     },
+    benefits: {
+      title: "Why Choose a Tarmac Driveway in Haywards Heath?",
+      text: [
+        "A professionally installed tarmac driveway offers numerous benefits, making it a smart investment for property owners in Haywards Heath. Tarmac is known for its durability and cost-effectiveness."
+      ],
+      items: [
+        { title: "Durability", text: "A strong, weather-resistant surface that withstands heavy use." },
+        { title: "Low Maintenance", text: "Requires minimal upkeep compared to other surfacing options." },
+        { title: "Smooth Finish", text: "Provides a neat, professional look that enhances your property’s aesthetic appeal." },
+        { title: "Cost Effectiveness", text: "A budget friendly solution that offers long-lasting performance." },
+        { title: "Quick Installation", text: "Can be laid efficiently, reducing disruption to your home or business." },
+        { title: "Weather Resistance", text: "Designed to endure harsh weather conditions without cracking or damage." }
+      ]
+    }
   },
   {
     slug: "block-paving",
@@ -139,6 +158,23 @@ export const services: Service[] = [
         "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
         "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
         "/images/local-tar2.webp"
+      ]
+    },
+    benefits: {
+      title: "Why Block Paving is the Ideal Choice",
+      text: [
+        "Block paving has become a popular option among homeowners in Haywards Heath and beyond due to its blend of practicality and aesthetics. It provides a highly durable surface while offering limitless design possibilities to suit any style.",
+        "Whether you’re looking for the classic appeal of Brindle block paving, the sleek sophistication of Charcoal block paving or the exceptional quality of Marshalls block paving, our team will guide you through the best options to complement your property, ensuring your driveway, patio or pathway blends seamlessly with your home and garden."
+      ],
+      items: [
+        { title: "Versatile design choices", text: "A wide range of colours, shapes and textures to create a unique look" },
+        { title: "Durability and strength", text: "Built to withstand heavy use while maintaining its appeal" },
+        { title: "Low maintenance", text: "Easy to clean and repair compared to other paving options" },
+        { title: "Permeable surface", text: "Helps with water drainage, reducing the risk of puddles and flooding" },
+        { title: "Standard paving blocks", text: "Classic, durable and suitable for driveways, patios and pathways" },
+        { title: "Decorative patterns", text: "Create eye-catching designs using intricate layouts and contrasting colours" },
+        { title: "Circular paving features", text: "Add a stylish focal point to your driveway or garden" },
+        { title: "Kerb stones and edging", text: "Frame your paving with decorative borders for a polished finish" }
       ]
     }
   },
@@ -191,6 +227,21 @@ export const services: Service[] = [
         "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
         "/images/local-tar2.webp"
       ]
+    },
+    benefits: {
+      title: "Why Choose a Resin Bound Driveway?",
+      text: [
+        "Choosing a resin bound driveway in Haywards Heath is a smart way to enhance your property’s aesthetic appeal while benefiting from a durable and low-maintenance surface. Unlike traditional paving or concrete, resin bound surfaces offer exceptional versatility, allowing for customised designs that perfectly complement your home or business.",
+        "At N Fullers paving and improvements, we specialise in creating bespoke resin driveways, offering a wide range of colours, patterns and finishes to bring your vision to life. With our expertise, we can craft a surface that is both visually striking and highly practical."
+      ],
+      items: [
+        { title: "Seamless & Permeable Surface", text: "Allows for natural drainage, reducing water pooling and flood risks" },
+        { title: "Highly Durable & Long-Lasting", text: "Resistant to cracking, UV fading and daily wear and tear" },
+        { title: "Low Maintenance", text: "No loose stones, minimal weed growth and easy to clean" },
+        { title: "Customisable Design Options", text: "Choose from a variety of colours and patterns to match your property" },
+        { title: "Slip-Resistant & Safe", text: "Provides excellent traction for pedestrians and vehicles" },
+        { title: "Eco-Friendly Solution", text: "Permeable structure supports sustainable water management" }
+      ]
     }
   },
   {
@@ -241,6 +292,20 @@ export const services: Service[] = [
         "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
         "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
         "/images/local-tar2.webp"
+      ]
+    },
+    benefits: {
+      title: "Why Choose Tar and Chip for Your Driveway?",
+      text: [
+        "For homeowners and businesses looking for a reliable and attractive driveway surface, tar and chip is an excellent choice. It offers a unique combination of durability and traditional aesthetics."
+      ],
+      items: [
+        { title: "Aesthetic appeal", text: "A natural stone finish that resembles resin but with a more traditional look." },
+        { title: "Strong durability", text: "A robust surface that withstands heavy use and all weather conditions." },
+        { title: "Low Maintenance", text: "Unlike loose gravel, stones remain sealed in place with hot bitumen, reducing the need for regular upkeep." },
+        { title: "Improved safety", text: "A textured surface that provides excellent traction for both vehicles and pedestrians." },
+        { title: "Affordability", text: "A cost-effective alternative to resin and other premium surfacing options." },
+        { title: "Versatile design options", text: "A variety of aggregate colours to customise the appearance of your driveway." }
       ]
     }
   },
@@ -293,6 +358,18 @@ export const services: Service[] = [
         "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
         "/images/local-tar2.webp"
       ]
+    },
+    benefits: {
+      title: "Custom Gravel Driveway Designs Haywards Heath",
+      text: [
+        "Every property is unique and at N Fullers paving and improvements, we provide tailored gravel driveway solutions to suit all styles, sizes and budgets. Whether you prefer a traditional countryside feel or a more structured and modern look, we have a variety of design options to choose from."
+      ],
+      items: [
+        { title: "Classic Gravel Driveway", text: "A traditional loose stone surface that blends effortlessly with period homes, rural properties and gardens." },
+        { title: "Permeable Gravel Driveway", text: "Designed to support natural drainage, preventing standing water and reducing flood risks" },
+        { title: "Patterned Gravel Driveway", text: "A creative approach using different gravel colours or sizes to create eye-catching patterns and textures." },
+        { title: "Gravel and Paver Combination", text: "Incorporating paving slabs or block paving into the design for defined pathways, edging or entrance areas" }
+      ]
     }
   },
   {
@@ -344,6 +421,22 @@ export const services: Service[] = [
         "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
         "/images/local-tar2.webp"
       ]
+    },
+    benefits: {
+      title: "Why Choose Natural Stone Paving in Haywards Heath?",
+      text: [
+        "Natural stone paving is an excellent choice for homeowners seeking a durable, elegant and low maintenance outdoor surface. With a variety of textures, colours and finishes available, our expert team can help you create a unique and sophisticated outdoor space that complements your property."
+      ],
+      items: [
+        { title: "Bespoke & Personalised Designs", text: "Every project is fully customised to match your aesthetic and functional needs." },
+        { title: "Versatile Size and Layout Options", text: "Available in a range of sizes, shapes and patterns to suit all types of outdoor areas." },
+        { title: "Exceptional Durability", text: "Resistant to wear and tear, weather changes and heavy foot and vehicular traffic, ensuring long term performance." },
+        { title: "Extensive Colour Choices", text: "A variety of natural stone hues, from warm sandstone to cool greys and whites, allowing for a personalised touch." },
+        { title: "Increased Property Value", text: "A professionally installed natural stone driveway, or patio enhances kerb appeal and adds long term value." },
+        { title: "Low Maintenance & Easy Upkeep", text: "Unlike other materials, natural stone requires minimal maintenance while retaining its beauty." },
+        { title: "Timeless & Classic Appearance", text: "A sophisticated and stylish addition to any home or business setting." },
+        { title: "Environmentally Friendly", text: "A sustainable and eco conscious paving solution that blends naturally with outdoor surroundings." }
+      ]
     }
   }
-];;
+];
