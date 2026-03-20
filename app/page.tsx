@@ -10,6 +10,8 @@ import { FAQSection } from "@/components/FAQSection";
 import { QuickQuoteForm } from "@/components/QuickQuoteForm";
 import { WavyDivider } from "@/components/WavyDivider";
 import { ServicesSection } from "@/components/ServicesSection";
+import { ProcessResultsSection } from "@/components/ProcessResultsSection";
+import { homeResults } from "@/data/services";
 
 export default function Home() {
   const homeSlides = [
@@ -61,17 +63,6 @@ export default function Home() {
 
       <ServicesSection />
 
-      <ProcessSection 
-        data={{
-          title: "Our Simple 3-Step Process",
-          subtitle: "We make getting your new driveway as smooth and stress-free as possible.",
-          steps: [
-            { icon: "MapPin", title: "Initial Consultation", text: "We visit your property to discuss your vision and provide expert advice and a detailed quote." },
-            { icon: "Wrench", title: "Professional Prep", text: "Groundwork is the most important part. We ensure a solid, stable foundation for your new surface." },
-            { icon: "Check", title: "Expert Finish", text: "Our team applies the final surface with precision, leaving your property clean and transformed." }
-          ]
-        }} 
-      />
 
       <CTABanner text="Get a Free No-Obligation Quote Today" phone={siteConfig.phone} />
 
@@ -113,6 +104,7 @@ export default function Home() {
 
       <CTABanner text="Quality Driveways Guaranteed" phone={siteConfig.phone} />
 
+      <ProcessResultsSection data={homeResults} />
       <QuickQuoteForm />
 
       <FAQSection data={faqsData} />

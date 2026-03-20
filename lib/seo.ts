@@ -50,7 +50,7 @@ export const generateServiceSchema = (service: Service) => {
     },
     "areaServed": {
       "@type": "State",
-      "name": "East Anglia"
+      "name": "Haywards Heath"
     },
     "description": service.intro.text[0]
   };

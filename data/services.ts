@@ -33,7 +33,22 @@ export interface Service {
     text: string[];
     items: { title: string; text: string }[];
   };
+  results?: {
+    title: string;
+    subtitle: string;
+    items?: { title: string; text: string }[];
+  };
 }
+
+export const homeResults = {
+  title: "Our Proven Process for Outstanding Paving Results",
+  subtitle: "We take every project seriously, ensuring attention to detail at every stage. Here’s what you can expect when you choose us for your driveway & paving in Haywards Heath:",
+  items: [
+    { title: "In-Depth Consultation & Site Assessment", text: "Before any work begins, we offer a free, no-obligation consultation taking time to understand your needs and assess your property to determine the best paving solution. A thorough site survey is carried out to evaluate ground conditions and drainage requirements." },
+    { title: "Expert Planning & Bespoke Design", text: "Our design phase includes tailored designs and advice to suit your property's style and surroundings, with optimal durability, weather resistance and low maintenance in mind. You can then select from our range of premium materials, colours and finishes to match your vision." },
+    { title: "Professional Installation & Quality Assurance", text: "Once the plan is finalised, our qualified and experienced team gets to work and we don’t consider the job done until every detail is perfected. A comprehensive quality inspection and a 10 year guarantee ensure peace of mind and confidence in our workmanship." }
+  ]
+};
 
 export const services: Service[] = [
   {
@@ -108,6 +123,18 @@ export const services: Service[] = [
         { title: "Quick Installation", text: "Can be laid efficiently, reducing disruption to your home or business." },
         { title: "Weather Resistance", text: "Designed to endure harsh weather conditions without cracking or damage." }
       ]
+    },
+    results: {
+      title: "Tailored Tarmac Solutions to Suit Your Needs",
+      subtitle: "We believe that every project is unique, which is why we take a bespoke approach to each driveway installation. By working closely with our clients, we ensure that their specific needs, design preferences and budget are fully considered throughout the process.",
+      items: [
+        { title: "Expert installation & repairs", text: "From brand-new tarmac driveways to seamless resurfacing solutions" },
+        { title: "Customised designs", text: "Tailored to complement your property’s style and functionally" },
+        { title: "State of the art equipment", text: "Ensuring precision and efficiency in every project" },
+        { title: "Durable & long lasting surfaces", text: "Built to withstand everyday wear and harsh weather conditions" },
+        { title: "Cost effective solutions", text: "High-quality results at competitive prices" },
+        { title: "Minimal disruption", text: "Fast and efficient project completion with minimal inconvenience" }
+      ]
     }
   },
   {
@@ -176,6 +203,15 @@ export const services: Service[] = [
         { title: "Circular paving features", text: "Add a stylish focal point to your driveway or garden" },
         { title: "Kerb stones and edging", text: "Frame your paving with decorative borders for a polished finish" }
       ]
+    },
+    results: {
+      title: "Our Proven Process for Outstanding Paving Results",
+      subtitle: "We take every project seriously, ensuring attention to detail at every stage. Here’s what you can expect when you choose us for your driveway block paving in Haywards Heath:",
+      items: [
+        { title: "In-Depth Consultation & Site Assessment", text: "Before any work begins, we offer a free, no-obligation consultation taking time to understand your needs and assess your property to determine the best paving solution. A thorough site survey is carried out to evaluate ground conditions and drainage requirements." },
+        { title: "Expert Planning & Bespoke Design", text: "Our design phase includes tailored designs and advice to suit your property's style and surroundings, with optimal durability, weather resistance and low maintenance in mind. You can then select from our range of premium materials, colours and finishes to match your vision." },
+        { title: "Professional Installation & Quality Assurance", text: "Once the plan is finalised, our qualified and experienced team gets to work and we don’t consider the job done until every detail is perfected. A comprehensive quality inspection and a 10 year guarantee ensure peace of mind and confidence in our workmanship." }
+      ]
     }
   },
   {
@@ -242,6 +278,15 @@ export const services: Service[] = [
         { title: "Slip-Resistant & Safe", text: "Provides excellent traction for pedestrians and vehicles" },
         { title: "Eco-Friendly Solution", text: "Permeable structure supports sustainable water management" }
       ]
+    },
+    results: {
+      title: "Our Proven Process for Outstanding Paving Results",
+      subtitle: "We take every project seriously, ensuring attention to detail at every stage. Here’s what you can expect when you choose us for your resin bound driveway or path in Haywards Heath:",
+      items: [
+        { title: "In-Depth Consultation & Site Assessment", text: "Before any work begins, we offer a free, no-obligation consultation taking time to understand your needs and assess your property to determine the best paving solution. A thorough site survey is carried out to evaluate ground conditions and drainage requirements." },
+        { title: "Expert Planning & Bespoke Design", text: "Our design phase includes tailored designs and advice to suit your property's style and surroundings, with optimal durability, weather resistance and low maintenance in mind. You can then select from our range of premium materials, colours and finishes to match your vision." },
+        { title: "Professional Installation & Quality Assurance", text: "Once the plan is finalised, our qualified and experienced team gets to work and we don’t consider the job done until every detail is perfected. A comprehensive quality inspection and a 10 year guarantee ensure peace of mind and confidence in our workmanship." }
+      ]
     }
   },
   {
@@ -256,7 +301,7 @@ export const services: Service[] = [
       },
       {
         image: "/images/local-tar2.webp",
-        title: "Quality Tar & Chip Driveways East Anglia",
+        title: "Quality Tar & Chip Driveways Haywards Heath",
         subtitle: "Durable and Attractive Alternative",
         bullets: ["All Work Guaranteed", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
       }
@@ -306,6 +351,16 @@ export const services: Service[] = [
         { title: "Improved safety", text: "A textured surface that provides excellent traction for both vehicles and pedestrians." },
         { title: "Affordability", text: "A cost-effective alternative to resin and other premium surfacing options." },
         { title: "Versatile design options", text: "A variety of aggregate colours to customise the appearance of your driveway." }
+      ]
+    },
+    results: {
+      title: "Recommended & Approved Tar & Chip Surfacing Experts in Haywards Heath",
+      subtitle: "For homes with extensive driveways or businesses where first impressions matter, tar and chip provides a high-quality, professional finish without the expense or premium paving options. It is particularly well-suited for:",
+      items: [
+        { title: "Country homes and estates", text: "A classic look that complements traditional properties" },
+        { title: "Hotels and guest houses", text: "A smooth, well-kept entrance that enhances the arrival experience for guests" },
+        { title: "Farm and rural properties", text: "Hard-wearing surfaces that blend naturally with the surrounding landscapes" },
+        { title: "Commercial premises", text: "A practical and cost-effective solution for access roads and parking areas" }
       ]
     }
   },
@@ -360,15 +415,27 @@ export const services: Service[] = [
       ]
     },
     benefits: {
-      title: "Custom Gravel Driveway Designs Haywards Heath",
+      title: "Why Choose Fullers Paving?",
       text: [
-        "Every property is unique and at N Fullers paving and improvements, we provide tailored gravel driveway solutions to suit all styles, sizes and budgets. Whether you prefer a traditional countryside feel or a more structured and modern look, we have a variety of design options to choose from."
+        "Gravel driveways are a versatile and affordable alternative to tarmac, block paving or resin bound surfaces. They work particularly well for large driveways where full paving can be costly."
       ],
       items: [
         { title: "Classic Gravel Driveway", text: "A traditional loose stone surface that blends effortlessly with period homes, rural properties and gardens." },
         { title: "Permeable Gravel Driveway", text: "Designed to support natural drainage, preventing standing water and reducing flood risks" },
         { title: "Patterned Gravel Driveway", text: "A creative approach using different gravel colours or sizes to create eye-catching patterns and textures." },
         { title: "Gravel and Paver Combination", text: "Incorporating paving slabs or block paving into the design for defined pathways, edging or entrance areas" }
+      ]
+    },
+    results: {
+      title: "Enhancing Your Gravel Driveway with Additional Features",
+      subtitle: "To create a polished and well-structured gravel driveway, we offer a variety of additional features that improve both aesthetics and functionality:",
+      items: [
+        { title: "Block Paving or Brick Edging", text: "Frames the driveway for a neat, professional finish." },
+        { title: "Granite Set Features", text: "Adds a decorative and durable border to enhance the design." },
+        { title: "Entrance Rumble Strips", text: "Provides a stylish and practical transition between road and driveway." },
+        { title: "Paving Slabs & Entrance Steps", text: "Creates a seamless flow from driveway to property entrance." },
+        { title: "Stabilising Membrane", text: "Prevents weed growth and maintains the integrity of the gravel surface." },
+        { title: "Stone Sub-Base Installation", text: "Ensuring a stable, well-draining foundation, preventing sinking or displacement in high traffic areas." }
       ]
     }
   },
@@ -436,6 +503,19 @@ export const services: Service[] = [
         { title: "Low Maintenance & Easy Upkeep", text: "Unlike other materials, natural stone requires minimal maintenance while retaining its beauty." },
         { title: "Timeless & Classic Appearance", text: "A sophisticated and stylish addition to any home or business setting." },
         { title: "Environmentally Friendly", text: "A sustainable and eco conscious paving solution that blends naturally with outdoor surroundings." }
+      ]
+    },
+    results: {
+      title: "What You can Expect from N Fullers paving and improvements for Your Natural Stone Paving Project in Haywards Heath",
+      subtitle: "When you trust N Fullers paving and improvements with your natural stone paving, you’re selecting a team of highly skilled professionals dedicated to exceptional craftsmanship and premium quality materials. What Sets Our Natural Stone Paving Services Apart:",
+      items: [
+        { title: "Bespoke Design & Consultation", text: "Tailored to meet your individual style, budget and outdoor space requirements." },
+        { title: "Professional & Precise Installation", text: "Carried out by our skilled and experienced team." },
+        { title: "Extensive Selection of High Quality Materials", text: "A wide range of premium stone options to choose from." },
+        { title: "Custom Features & Enhancements", text: "To add unique character to your project." },
+        { title: "Expert Maintenance Advice & Aftercare", text: "Ensuring your paving looks great for years to come." },
+        { title: "Warranties & Guarantees", text: "For peace of mind and confidence in our workmanship." },
+        { title: "Meticulous Attention to Detail", text: "Ensuring every aspect of the project is completed to the highest standard." }
       ]
     }
   }

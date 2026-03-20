@@ -11,6 +11,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { QuickQuoteForm } from "@/components/QuickQuoteForm";
 import { WavyDivider } from "@/components/WavyDivider";
 import { WhyChooseSection } from "@/components/WhyChooseSection";
+import { ProcessResultsSection } from "@/components/ProcessResultsSection";
 import { faqs } from "@/data/faqs";
 
 interface Props {
@@ -46,18 +47,14 @@ export default function ServicePage({ params }: Props) {
       <IntroSection data={service.intro} />
       <CTABanner text={`Free ${service.title} Quote`} phone={siteConfig.phone} />
       
-      <div className="bg-primary">
-         <WavyDivider />
          <FeaturesSection data={{ ...service.features, phone: siteConfig.phone }} />
-      </div>
 
       <WhyChooseSection data={service.benefits} />
 
-      {service.process && <ProcessSection data={service.process} />}
-      
       <CTABanner text="Professional Quality Guaranteed" phone={siteConfig.phone} />
       
-      <QuickQuoteForm />
+      <ProcessResultsSection data={service.results} />
+      <QuickQuoteForm serviceName={service.title} />
       <FAQSection data={faqs} />
     </main>
   );

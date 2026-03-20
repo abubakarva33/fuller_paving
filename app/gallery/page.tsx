@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Gallery",
-  description: "View our recent paving and driveway projects across Haywards Heath and East Anglia.",
+  description: "View our recent paving and driveway projects across Haywards Heath.",
 };
 
 const images = [
