@@ -39,30 +39,30 @@ export const QuickQuoteForm = ({ serviceName = "driveway / surfacing" }: QuickQu
             <input 
               type="text" 
               placeholder="Name" 
-              className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-[#F4E02C] text-gray-900 transition-all placeholder:text-gray-400" 
+              className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400" 
             />
             <input 
               type="tel" 
               placeholder="Phone" 
-              className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-[#F4E02C] text-gray-900 transition-all placeholder:text-gray-400" 
+              className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400" 
             />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-4">
             <input 
               type="email" 
               placeholder="Email" 
-              className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-[#F4E02C] text-gray-900 transition-all placeholder:text-gray-400" 
+              className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400" 
             />
             <input 
               type="text" 
               placeholder="Postcode" 
-              className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-[#F4E02C] text-gray-900 transition-all placeholder:text-gray-400" 
+              className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400" 
             />
           </div>
           <textarea 
             placeholder="How can we help?" 
             rows={5} 
-            className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-[#F4E02C] text-gray-900 transition-all placeholder:text-gray-400 resize-none h-40"
+            className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400 resize-none h-40"
           ></textarea>
           
           <div className="flex flex-col items-center gap-8 pt-4">
@@ -71,7 +71,7 @@ export const QuickQuoteForm = ({ serviceName = "driveway / surfacing" }: QuickQu
                 type="checkbox" 
                 checked={agreed}
                 onChange={() => setAgreed(!agreed)}
-                className="w-5 h-5 rounded border-gray-300 text-[#F4E02C] focus:ring-[#F4E02C] transition-all cursor-pointer"
+                className="w-5 h-5 rounded border-gray-300 text-accent focus:ring-accent transition-all cursor-pointer"
               />
               <span className="text-gray-600 text-sm font-medium">
                 By ticking this box you accept our <span className="text-gray-500 underline cursor-pointer hover:text-gray-900 transition-colors">Privacy Policy</span> *
@@ -79,7 +79,7 @@ export const QuickQuoteForm = ({ serviceName = "driveway / surfacing" }: QuickQu
             </label>
             
             <button 
-              className="bg-[#F4E02C] text-gray-900 font-black py-4 px-16 rounded-lg hover:bg-[#e6d320] transition-all shadow-md uppercase tracking-widest text-lg"
+              className="bg-accent text-white font-black py-4 px-16 rounded-lg hover:bg-orange-600 transition-all shadow-md uppercase tracking-widest text-lg"
             >
               Send
             </button>

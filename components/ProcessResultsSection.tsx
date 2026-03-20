@@ -16,13 +16,13 @@ export const ProcessResultsSection = ({ data }: ProcessResultsProps) => {
 
   return (
     <div>
-    <section className="bg-[#2D311F] pt-24 pb-10 px-4">
+    <section className="bg-primary pt-24 pb-10 px-4">
       <div className="max-w-6xl mx-auto text-center relative z-10">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-2xl md:text-3xl font-black text-[#F4E02C] mb-6 uppercase tracking-tight"
+          className="text-2xl md:text-3xl font-black text-accent mb-6 uppercase tracking-tight"
         >
           {data.title}
         </motion.h2>
@@ -48,7 +48,7 @@ export const ProcessResultsSection = ({ data }: ProcessResultsProps) => {
                 transition={{ delay: idx * 0.1 }}
                 className="flex gap-4 group"
               >
-                <ChevronRight className="w-6 h-6 text-[#F4E02C] flex-shrink-0 mt-1 group-hover:translate-x-1 transition-transform" />
+                <ChevronRight className="w-6 h-6 text-accent flex-shrink-0 mt-1 group-hover:translate-x-1 transition-transform" />
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold text-white tracking-tight">
                     {item.title}
@@ -70,7 +70,7 @@ export const ProcessResultsSection = ({ data }: ProcessResultsProps) => {
         <svg 
           viewBox="0 0 1200 120" 
           preserveAspectRatio="none" 
-          className="relative block w-full h-full fill-[#2D311F]"
+          className="relative block w-full h-full fill-primary"
         >
           <path d="M600 120L1200 0H0L600 120Z"></path>
         </svg>
