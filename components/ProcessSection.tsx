@@ -43,9 +43,6 @@ export const ProcessSection = ({ data }: ProcessProps) => {
             >
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-8 border-4 border-white shadow-2xl text-accent group-hover:scale-110 transition-transform">
                 <IconMapper name={step.icon} className="w-10 h-10" />
-                <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent text-white rounded-full flex items-center justify-center font-black text-sm border-4 border-bg">
-                  {idx + 1}
-                </div>
               </div>
               <h3 className="text-2xl font-black text-primary mb-4 uppercase tracking-tight">{step.title}</h3>
               <p className="text-gray-600 leading-relaxed font-medium">{step.text}</p>

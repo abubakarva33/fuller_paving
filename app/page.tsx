@@ -9,6 +9,7 @@ import { ProcessSection } from "@/components/ProcessSection";
 import { FAQSection } from "@/components/FAQSection";
 import { QuickQuoteForm } from "@/components/QuickQuoteForm";
 import { WavyDivider } from "@/components/WavyDivider";
+import { ServicesSection } from "@/components/ServicesSection";
 
 export default function Home() {
   const homeSlides = [
@@ -57,6 +58,8 @@ export default function Home() {
       />
 
       <CTABanner text="Get a Free No-Obligation Quote Today" phone={siteConfig.phone} />
+
+      <ServicesSection />
 
       <div className="bg-primary">
          <WavyDivider />
