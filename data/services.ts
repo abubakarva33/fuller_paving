@@ -18,8 +18,10 @@ export interface Service {
   };
   features: {
     title: string;
-    subtitle: string;
-    items: { icon: string; title: string; text: string }[];
+    description: string;
+    stats: { label: string; value: string }[];
+    features: string[];
+    gallery: string[];
   };
   process?: {
     title: string;
@@ -57,13 +59,26 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose a Tarmac Driveway?",
-      subtitle: "Tarmac remains one of the most popular and cost-effective solutions for driveways and pathways. Here's why:",
-      items: [
-        { icon: "Clock", title: "Durability", text: "A properly laid tarmac driveway can withstand heavy use and extreme weather conditions for years." },
-        { icon: "CheckCircle2", title: "Cost-Effective", text: "Tarmac offers a highly economical solution compared to block paving or resin." },
-        { icon: "Wrench", title: "Low Maintenance", text: "Requires minimal upkeep. Simple sweeping and occasional washing keep it looking great." },
-        { icon: "ShieldCheck", title: "Quick Installation", text: "Our efficient team can often lay a new tarmac surface much faster than other materials." }
+      title: "Why Choose Fullers Paving?",
+      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      stats: [
+        { value: "200+", label: "Patios" },
+        { value: "300+", label: "Driveways" },
+        { value: "500+", label: "Happy Customers" }
+      ],
+      features: [
+        "Local Haywards Heath company",
+        "Trusted reviews",
+        "100% Satisfaction Guarantee",
+        "Free No-Obligation Quotes",
+        "No up-front fees",
+        "Minimum 60 months guarantee"
+      ],
+      gallery: [
+        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
+        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
+        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
+        "/images/local-tar2.webp"
       ]
     },
     process: {
@@ -104,12 +119,26 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose Block Paving?",
-      subtitle: "Discover the benefits of choosing block paving for your property.",
-      items: [
-        { icon: "CheckCircle2", title: "Aesthetic Appeal", text: "Creates a premium look that enhances kerb appeal." },
-        { icon: "Wrench", title: "Easy Repairs", text: "Individual blocks can be replaced if damaged, unlike solid surfaces." },
-        { icon: "ShieldCheck", title: "Durability", text: "Extremely hard-wearing and capable of handling heavy loads." }
+      title: "Why Choose Fullers Paving?",
+      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      stats: [
+        { value: "200+", label: "Patios" },
+        { value: "300+", label: "Driveways" },
+        { value: "500+", label: "Happy Customers" }
+      ],
+      features: [
+        "Local Haywards Heath company",
+        "Trusted reviews",
+        "100% Satisfaction Guarantee",
+        "Free No-Obligation Quotes",
+        "No up-front fees",
+        "Minimum 60 months guarantee"
+      ],
+      gallery: [
+        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
+        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
+        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
+        "/images/local-tar2.webp"
       ]
     }
   },
@@ -141,12 +170,26 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Benefits of Resin Bound",
-      subtitle: "Why resin bound is the modern choice for homeowners.",
-      items: [
-        { icon: "CheckCircle2", title: "Permeable", text: "Naturally drains water, making it environmentally friendly and compliant with drainage regulations." },
-        { icon: "Star", title: "Low Maintenance", text: "Requires only an occasional power wash to keep it looking brand new." },
-        { icon: "ShieldCheck", title: "Vibrant Colors", text: "Available in a wide range of natural stone colors to match any home style." }
+      title: "Why Choose Fullers Paving?",
+      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      stats: [
+        { value: "200+", label: "Patios" },
+        { value: "300+", label: "Driveways" },
+        { value: "500+", label: "Happy Customers" }
+      ],
+      features: [
+        "Local Haywards Heath company",
+        "Trusted reviews",
+        "100% Satisfaction Guarantee",
+        "Free No-Obligation Quotes",
+        "No up-front fees",
+        "Minimum 60 months guarantee"
+      ],
+      gallery: [
+        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
+        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
+        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
+        "/images/local-tar2.webp"
       ]
     }
   },
@@ -178,12 +221,26 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose Tar & Chip?",
-      subtitle: "The perfect balance of cost and character.",
-      items: [
-        { icon: "Clock", title: "Natural Look", text: "Provides the appearance of a gravel drive but with the stability of a solid surface." },
-        { icon: "ThumbsUp", title: "Cost-Effective", text: "Significantly cheaper than most other solid driveway options." },
-        { icon: "ShieldCheck", title: "Great Traction", text: "The textured surface provides excellent grip for vehicles and pedestrians." }
+      title: "Why Choose Fullers Paving?",
+      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      stats: [
+        { value: "200+", label: "Patios" },
+        { value: "300+", label: "Driveways" },
+        { value: "500+", label: "Happy Customers" }
+      ],
+      features: [
+        "Local Haywards Heath company",
+        "Trusted reviews",
+        "100% Satisfaction Guarantee",
+        "Free No-Obligation Quotes",
+        "No up-front fees",
+        "Minimum 60 months guarantee"
+      ],
+      gallery: [
+        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
+        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
+        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
+        "/images/local-tar2.webp"
       ]
     }
   },
@@ -215,12 +272,26 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose Gravel?",
-      subtitle: "Discover the unique advantages of a gravel driveway.",
-      items: [
-        { icon: "Clock", title: "Instant Kerb Appeal", text: "Provides a classic, tidy look that instantly enhances your property." },
-        { icon: "CheckCircle2", title: "Permeable", text: "Excellent drainage properties, making it an eco-friendly choice." },
-        { icon: "ShieldCheck", title: "Security Benefit", text: "The sound of crunching gravel provides an audible warning of visitors." }
+      title: "Why Choose Fullers Paving?",
+      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      stats: [
+        { value: "200+", label: "Patios" },
+        { value: "300+", label: "Driveways" },
+        { value: "500+", label: "Happy Customers" }
+      ],
+      features: [
+        "Local Haywards Heath company",
+        "Trusted reviews",
+        "100% Satisfaction Guarantee",
+        "Free No-Obligation Quotes",
+        "No up-front fees",
+        "Minimum 60 months guarantee"
+      ],
+      gallery: [
+        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
+        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
+        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
+        "/images/local-tar2.webp"
       ]
     }
   },
@@ -252,12 +323,26 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Benefits of Natural Stone",
-      subtitle: "Why natural stone is worth the investment.",
-      items: [
-        { icon: "Star", title: "Unique Beauty", text: "No two stones are identical, ensuring your driveway is one-of-a-kind." },
-        { icon: "ShieldCheck", title: "Incredibly Durable", text: "Natural stone handles heavy wear and tear with ease and ages gracefully." },
-        { icon: "Wrench", title: "Low Maintenance", text: "Resistant to weather and easy to clean, keeping its premium look for decades." }
+      title: "Why Choose Fullers Paving?",
+      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      stats: [
+        { value: "200+", label: "Patios" },
+        { value: "300+", label: "Driveways" },
+        { value: "500+", label: "Happy Customers" }
+      ],
+      features: [
+        "Local Haywards Heath company",
+        "Trusted reviews",
+        "100% Satisfaction Guarantee",
+        "Free No-Obligation Quotes",
+        "No up-front fees",
+        "Minimum 60 months guarantee"
+      ],
+      gallery: [
+        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
+        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
+        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
+        "/images/local-tar2.webp"
       ]
     }
   }

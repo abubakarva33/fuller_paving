@@ -47,7 +47,7 @@ export default function ServicePage({ params }: Props) {
       
       <div className="bg-primary">
          <WavyDivider />
-         <FeaturesSection data={service.features} />
+         <FeaturesSection data={{ ...service.features, phone: siteConfig.phone }} />
       </div>
 
       {service.process && <ProcessSection data={service.process} />}

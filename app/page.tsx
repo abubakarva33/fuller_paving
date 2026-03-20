@@ -61,22 +61,6 @@ export default function Home() {
 
       <ServicesSection />
 
-      <div className="bg-primary">
-         <WavyDivider />
-         <FeaturesSection 
-           data={{
-             title: "Why Choose Fullers Paving?",
-             subtitle: "We deliver excellence in every project, ensuring your driveway not only looks stunning but stands the test of time.",
-             items: [
-               { icon: "ShieldCheck", title: "Fully Guaranteed", text: "All our work comes with a comprehensive guarantee for your peace of mind." },
-               { icon: "Clock", title: "Timely Delivery", text: "We respect your time and ensure projects are completed within the agreed timeframe." },
-               { icon: "ThumbsUp", title: "Expert Team", text: "Our skilled tradesmen are specialists in a wide variety of surfacing techniques." },
-               { icon: "Star", title: "High Rating", text: "We are proudly rated as 'Excellent' by our customers across the region." }
-             ]
-           }} 
-         />
-      </div>
-
       <ProcessSection 
         data={{
           title: "Our Simple 3-Step Process",
@@ -88,6 +72,44 @@ export default function Home() {
           ]
         }} 
       />
+
+      <CTABanner text="Get a Free No-Obligation Quote Today" phone={siteConfig.phone} />
+
+          <FeaturesSection 
+            data={{
+              title: "Why Choose Fullers Paving?",
+              description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+              stats: [
+                { value: "200+", label: "Patios" },
+                { value: "300+", label: "Driveways" },
+                { value: "500+", label: "Happy Customers" }
+              ],
+              features: [
+                "Local Haywards Heath company",
+                "Trusted reviews",
+                "100% Satisfaction Guarantee",
+                "Free No-Obligation Quotes",
+                "No up-front fees",
+                "Minimum 60 months guarantee"
+              ],
+              phone: siteConfig.phone,
+              gallery: [
+                "/images/tarmac1.webp",
+                "/images/block-paving1.webp",
+                "/images/resin-bound1.webp",
+                "/images/local-tar1.webp",
+                "/images/gravel.webp",
+                "/images/natural-stone1.webp",
+                "/images/tarmac2.webp",
+                "/images/block-paving2.webp",
+                "/images/resin-bound2.webp",
+                "/images/local-tar2.webp"
+              ]
+            }} 
+          />
+ 
+
+      
 
       <CTABanner text="Quality Driveways Guaranteed" phone={siteConfig.phone} />
 
