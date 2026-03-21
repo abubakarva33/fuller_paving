@@ -5,7 +5,7 @@
 N Fullers paving and improvements
 
 Company name : N Fullers paving and improvements
-Location : 14 Sergison Rd, Haywards Heath RH16 1HS
+Location : New Buildings Farm, Parish Ln RH11 9AA
 Domin name : www.nfullerspavingandimprovements.co.uk
 
 ## Logo

@@ -42,7 +42,7 @@ export interface Service {
 
 export const homeResults = {
   title: "Our Proven Process for Outstanding Paving Results",
-  subtitle: "We take every project seriously, ensuring attention to detail at every stage. Here’s what you can expect when you choose us for your driveway & paving in Haywards Heath:",
+  subtitle: "We take every project seriously, ensuring attention to detail at every stage. Here’s what you can expect when you choose us for your driveway & paving in Parish:",
   items: [
     { title: "In-Depth Consultation & Site Assessment", text: "Before any work begins, we offer a free, no-obligation consultation taking time to understand your needs and assess your property to determine the best paving solution. A thorough site survey is carried out to evaluate ground conditions and drainage requirements." },
     { title: "Expert Planning & Bespoke Design", text: "Our design phase includes tailored designs and advice to suit your property's style and surroundings, with optimal durability, weather resistance and low maintenance in mind. You can then select from our range of premium materials, colours and finishes to match your vision." },
@@ -57,20 +57,20 @@ export const services: Service[] = [
     hero: [
       {
         image: "/images/tarmac1.webp",
-        title: "Tarmac Driveway Experts Haywards Heath",
+        title: "Tarmac Driveway Experts Parish",
         subtitle: "Expert Installation & Guaranteed Quality",
         bullets: ["Free Surveys & No Obligation Quotes", "Plain / Custom Designs", "Hard-wearing Top Quality Materials", "Fully Insured & Guaranteed"]
       },
       {
         image: "/images/tarmac2.webp",
-        title: "Quality Tarmac Driveways Haywards Heath",
+        title: "Quality Tarmac Driveways Parish",
         subtitle: "Residential & Commercial Surfacing",
         bullets: ["All Work Guaranteed", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
       }
     ],
     intro: {
-      title: "Premium Quality Tarmac Driveways Haywards Heath",
-      subtitle: "Local & Trusted Tarmac Surfacing Specialists in Haywards Heath",
+      title: "Premium Quality Tarmac Driveways Parish",
+      subtitle: "Local & Trusted Tarmac Surfacing Specialists in Parish",
       text: [
         "At N Fullers paving and improvements, we specialise in delivering expertly crafted tarmac driveways and surfacing solutions that are built to last. With a reputation for durability, affordability and versatility, tarmac remains one of the most popular choices for both residential and commercial properties.",
         "Whether you’re looking to enhance your home’s kerb appeal or need a robust surface for a commercial space, our professional team is here to provide a tailored solution that meets your needs."
@@ -80,14 +80,14 @@ export const services: Service[] = [
     },
     features: {
       title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
       stats: [
         { value: "200+", label: "Patios" },
         { value: "300+", label: "Driveways" },
         { value: "500+", label: "Happy Customers" }
       ],
       features: [
-        "Local Haywards Heath company",
+        "Local Parish company",
         "Trusted reviews",
         "100% Satisfaction Guarantee",
         "Free No-Obligation Quotes",
@@ -111,9 +111,9 @@ export const services: Service[] = [
       ]
     },
     benefits: {
-      title: "Why Choose a Tarmac Driveway in Haywards Heath?",
+      title: "Why Choose a Tarmac Driveway in Parish?",
       text: [
-        "A professionally installed tarmac driveway offers numerous benefits, making it a smart investment for property owners in Haywards Heath. Tarmac is known for its durability and cost-effectiveness."
+        "A professionally installed tarmac driveway offers numerous benefits, making it a smart investment for property owners in Parish. Tarmac is known for its durability and cost-effectiveness."
       ],
       items: [
         { title: "Durability", text: "A strong, weather-resistant surface that withstands heavy use." },
@@ -143,7 +143,7 @@ export const services: Service[] = [
     hero: [
       {
         image: "/images/block-paving1.webp",
-        title: "Block Paved Driveways & Paths in Haywards Heath",
+        title: "Block Paved Driveways & Paths in Parish",
         subtitle: "Elegant, Durable & Bespoke Designs",
         bullets: ["Residential & Commercial Paving", "Wide range of Colours, Shapes & Textures", "Top Quality Materials", "Fully Insured & Guaranteed"]
       },
@@ -155,7 +155,7 @@ export const services: Service[] = [
       }
     ],
     intro: {
-      title: "Block Paving Driveways & Paths in Haywards Heath",
+      title: "Block Paving Driveways & Paths in Parish",
       subtitle: "Local Block Paving Specialists",
       text: [
         "At N Fullers paving and improvements, we take pride in delivering expertly crafted block paving driveways that enhance both the beauty and functionality of your outdoor space. With a solid reputation in the paving industry, we are known for our precision, high standards and use of premium materials from trusted industry suppliers.",
@@ -166,14 +166,14 @@ export const services: Service[] = [
     },
     features: {
       title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
       stats: [
         { value: "200+", label: "Patios" },
         { value: "300+", label: "Driveways" },
         { value: "500+", label: "Happy Customers" }
       ],
       features: [
-        "Local Haywards Heath company",
+        "Local Parish company",
         "Trusted reviews",
         "100% Satisfaction Guarantee",
         "Free No-Obligation Quotes",
@@ -190,7 +190,7 @@ export const services: Service[] = [
     benefits: {
       title: "Why Block Paving is the Ideal Choice",
       text: [
-        "Block paving has become a popular option among homeowners in Haywards Heath and beyond due to its blend of practicality and aesthetics. It provides a highly durable surface while offering limitless design possibilities to suit any style.",
+        "Block paving has become a popular option among homeowners in Parish and beyond due to its blend of practicality and aesthetics. It provides a highly durable surface while offering limitless design possibilities to suit any style.",
         "Whether you’re looking for the classic appeal of Brindle block paving, the sleek sophistication of Charcoal block paving or the exceptional quality of Marshalls block paving, our team will guide you through the best options to complement your property, ensuring your driveway, patio or pathway blends seamlessly with your home and garden."
       ],
       items: [
@@ -206,7 +206,7 @@ export const services: Service[] = [
     },
     results: {
       title: "Our Proven Process for Outstanding Paving Results",
-      subtitle: "We take every project seriously, ensuring attention to detail at every stage. Here’s what you can expect when you choose us for your driveway block paving in Haywards Heath:",
+      subtitle: "We take every project seriously, ensuring attention to detail at every stage. Here’s what you can expect when you choose us for your driveway block paving in Parish:",
       items: [
         { title: "In-Depth Consultation & Site Assessment", text: "Before any work begins, we offer a free, no-obligation consultation taking time to understand your needs and assess your property to determine the best paving solution. A thorough site survey is carried out to evaluate ground conditions and drainage requirements." },
         { title: "Expert Planning & Bespoke Design", text: "Our design phase includes tailored designs and advice to suit your property's style and surroundings, with optimal durability, weather resistance and low maintenance in mind. You can then select from our range of premium materials, colours and finishes to match your vision." },
@@ -220,7 +220,7 @@ export const services: Service[] = [
     hero: [
       {
         image: "/images/resin-bound1.webp",
-        title: "Resin Bound Driveways & Paths in Haywards Heath",
+        title: "Resin Bound Driveways & Paths in Parish",
         subtitle: "Seamless, Permeable & Stylish",
         bullets: ["Residential & Commercial Surfaces", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
       },
@@ -232,10 +232,10 @@ export const services: Service[] = [
       }
     ],
     intro: {
-      title: "Resin Bound Driveways & Paths in Haywards Heath",
+      title: "Resin Bound Driveways & Paths in Parish",
       subtitle: "Local Resin Bound Driveway Specialists",
       text: [
-        "Resin bound driveways have become a top choice for homeowners and businesses in Haywards Heath, offering a perfect blend of durability, functionality and aesthetic appeal.",
+        "Resin bound driveways have become a top choice for homeowners and businesses in Parish, offering a perfect blend of durability, functionality and aesthetic appeal.",
         "N Fullers paving and improvements advanced resin-bound driveway surfacing technique combines high-quality aggregate stones with a clear resin, creating a smooth, hard-wearing and visually striking finish. Applied over a suitable base, resin bound surfaces deliver a seamless, permeable and low-maintenance solution that enhances any outdoor space."
       ],
       image: "/images/resin-driveway3.webp",
@@ -243,14 +243,14 @@ export const services: Service[] = [
     },
     features: {
       title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
       stats: [
         { value: "200+", label: "Patios" },
         { value: "300+", label: "Driveways" },
         { value: "500+", label: "Happy Customers" }
       ],
       features: [
-        "Local Haywards Heath company",
+        "Local Parish company",
         "Trusted reviews",
         "100% Satisfaction Guarantee",
         "Free No-Obligation Quotes",
@@ -267,7 +267,7 @@ export const services: Service[] = [
     benefits: {
       title: "Why Choose a Resin Bound Driveway?",
       text: [
-        "Choosing a resin bound driveway in Haywards Heath is a smart way to enhance your property’s aesthetic appeal while benefiting from a durable and low-maintenance surface. Unlike traditional paving or concrete, resin bound surfaces offer exceptional versatility, allowing for customised designs that perfectly complement your home or business.",
+        "Choosing a resin bound driveway in Parish is a smart way to enhance your property’s aesthetic appeal while benefiting from a durable and low-maintenance surface. Unlike traditional paving or concrete, resin bound surfaces offer exceptional versatility, allowing for customised designs that perfectly complement your home or business.",
         "At N Fullers paving and improvements, we specialise in creating bespoke resin driveways, offering a wide range of colours, patterns and finishes to bring your vision to life. With our expertise, we can craft a surface that is both visually striking and highly practical."
       ],
       items: [
@@ -281,7 +281,7 @@ export const services: Service[] = [
     },
     results: {
       title: "Our Proven Process for Outstanding Paving Results",
-      subtitle: "We take every project seriously, ensuring attention to detail at every stage. Here’s what you can expect when you choose us for your resin bound driveway or path in Haywards Heath:",
+      subtitle: "We take every project seriously, ensuring attention to detail at every stage. Here’s what you can expect when you choose us for your resin bound driveway or path in Parish:",
       items: [
         { title: "In-Depth Consultation & Site Assessment", text: "Before any work begins, we offer a free, no-obligation consultation taking time to understand your needs and assess your property to determine the best paving solution. A thorough site survey is carried out to evaluate ground conditions and drainage requirements." },
         { title: "Expert Planning & Bespoke Design", text: "Our design phase includes tailored designs and advice to suit your property's style and surroundings, with optimal durability, weather resistance and low maintenance in mind. You can then select from our range of premium materials, colours and finishes to match your vision." },
@@ -295,37 +295,37 @@ export const services: Service[] = [
     hero: [
       {
         image: "/images/local-tar1.webp",
-        title: "Quality Tar & Chip Driveways in Haywards Heath",
+        title: "Quality Tar & Chip Driveways in Parish",
         subtitle: "Traditional Look with Modern Durability",
         bullets: ["All Work Guaranteed", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
       },
       {
         image: "/images/local-tar2.webp",
-        title: "Quality Tar & Chip Driveways Haywards Heath",
+        title: "Quality Tar & Chip Driveways Parish",
         subtitle: "Durable and Attractive Alternative",
         bullets: ["All Work Guaranteed", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
       }
     ],
     intro: {
-      title: "Tar & Chip Driveways Haywards Heath",
-      subtitle: "Local & Trusted Tar and Chip Driveway Specialists in Haywards Heath",
+      title: "Tar & Chip Driveways Parish",
+      subtitle: "Local & Trusted Tar and Chip Driveway Specialists in Parish",
       text: [
         "Tar and chip surfacing is becoming an increasingly popular alternative to resin bound driveways, offering a durable, visually appealing and budget friendly solution. This method provides many of the benefits of resin including a non-slip surface for improved grip in icy conditions, but at a fraction of the cost.",
-        "N Fullers paving and improvements are tar and chip surfacing specialists in Haywards Heath and we offer free site surveys and no obligation quotes along with free expert advice. Contact us today."
+        "N Fullers paving and improvements are tar and chip surfacing specialists in Parish and we offer free site surveys and no obligation quotes along with free expert advice. Contact us today."
       ],
       image: "/images/local-tar3.webp",
       badges: true
     },
     features: {
       title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
       stats: [
         { value: "200+", label: "Patios" },
         { value: "300+", label: "Driveways" },
         { value: "500+", label: "Happy Customers" }
       ],
       features: [
-        "Local Haywards Heath company",
+        "Local Parish company",
         "Trusted reviews",
         "100% Satisfaction Guarantee",
         "Free No-Obligation Quotes",
@@ -354,7 +354,7 @@ export const services: Service[] = [
       ]
     },
     results: {
-      title: "Recommended & Approved Tar & Chip Surfacing Experts in Haywards Heath",
+      title: "Recommended & Approved Tar & Chip Surfacing Experts in Parish",
       subtitle: "For homes with extensive driveways or businesses where first impressions matter, tar and chip provides a high-quality, professional finish without the expense or premium paving options. It is particularly well-suited for:",
       items: [
         { title: "Country homes and estates", text: "A classic look that complements traditional properties" },
@@ -370,20 +370,20 @@ export const services: Service[] = [
     hero: [
       {
         image: "/images/gravel.webp",
-        title: "Gravel & Shingle Driveways Haywards Heath",
+        title: "Gravel & Shingle Driveways Parish",
         subtitle: "Classic & Affordable Surfacing Solutions",
         bullets: ["Residential & Commercial Surfaces", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
       },
       {
         image: "/images/gravel.webp",
-        title: "Haywards Heath Gravel Driveway Experts",
+        title: "Parish Gravel Driveway Experts",
         subtitle: "Choice of Aggregates & Colours",
         bullets: ["Free Surveys & No Obligation Quotes", "Choice of Aggregates & Colours", "Hard-wearing Top Quality Materials", "Fully Insured & Guaranteed"]
       }
     ],
     intro: {
-      title: "Gravel Driveways Haywards Heath",
-      subtitle: "Local & Trusted Gravel Driveway Specialists in Haywards Heath",
+      title: "Gravel Driveways Parish",
+      subtitle: "Local & Trusted Gravel Driveway Specialists in Parish",
       text: [
         "If you’re looking to enhance the aesthetic appeal of your property while keeping costs manageable, a gravel driveway is an excellent option. At N Fullers paving and improvements, we specialise in designing and installing stunning gravel driveways that not only elevate the look of your home but also provide a durable and low maintenance surface that stands the test of time.",
         "Gravel driveways are a versatile and affordable alternative to tarmac, block paving or resin bound surfaces. They work particularly well for large driveways where full paving can be costly."
@@ -393,14 +393,14 @@ export const services: Service[] = [
     },
     features: {
       title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
       stats: [
         { value: "200+", label: "Patios" },
         { value: "300+", label: "Driveways" },
         { value: "500+", label: "Happy Customers" }
       ],
       features: [
-        "Local Haywards Heath company",
+        "Local Parish company",
         "Trusted reviews",
         "100% Satisfaction Guarantee",
         "Free No-Obligation Quotes",
@@ -445,20 +445,20 @@ export const services: Service[] = [
     hero: [
       {
         image: "/images/natural-stone1.webp",
-        title: "Natural Stone Driveway Experts Haywards Heath",
+        title: "Natural Stone Driveway Experts Parish",
         subtitle: "Premium Paving for a Luxurious Finish",
         bullets: ["Free Surveys & No Obligation Quotes", "Plain / Custom Designs", "Hard-wearing Top Quality Materials", "Fully Insured & Guaranteed"]
       },
       {
         image: "/images/natural-stone2.webp",
-        title: "Natural Stone Driveway Specialists Haywards Heath",
+        title: "Natural Stone Driveway Specialists Parish",
         subtitle: "Bespoke Designs Tailored to Your Home",
         bullets: ["Residential & Commercial Surfaces", "Wide range of Colours & Patterns", "Top Quality Materials", "Fully Insured & Guaranteed"]
       }
     ],
     intro: {
-      title: "Premium Natural Stone Driveway Paving Haywards Heath",
-      subtitle: "Local & Trusted Natural Stone Design & Paving Specialists in Haywards Heath",
+      title: "Premium Natural Stone Driveway Paving Parish",
+      subtitle: "Local & Trusted Natural Stone Design & Paving Specialists in Parish",
       text: [
         "At N Fullers paving and improvements, we specialise in elevating outdoor spaces with expertly designed natural stone driveways, patios and pathways. Whether you’re looking to create a stylish entrance, a charming garden walkway or a luxurious patio area, our bespoke natural stone paving solutions offer timeless beauty, functionality and added value to your property.",
         "With years of expertise, we tailor every project to suit your vision, preferences and property style, ensuring a seamless and high quality finish that enhances your home’s exterior."
@@ -468,14 +468,14 @@ export const services: Service[] = [
     },
     features: {
       title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
       stats: [
         { value: "200+", label: "Patios" },
         { value: "300+", label: "Driveways" },
         { value: "500+", label: "Happy Customers" }
       ],
       features: [
-        "Local Haywards Heath company",
+        "Local Parish company",
         "Trusted reviews",
         "100% Satisfaction Guarantee",
         "Free No-Obligation Quotes",
@@ -490,7 +490,7 @@ export const services: Service[] = [
       ]
     },
     benefits: {
-      title: "Why Choose Natural Stone Paving in Haywards Heath?",
+      title: "Why Choose Natural Stone Paving in Parish?",
       text: [
         "Natural stone paving is an excellent choice for homeowners seeking a durable, elegant and low maintenance outdoor surface. With a variety of textures, colours and finishes available, our expert team can help you create a unique and sophisticated outdoor space that complements your property."
       ],
@@ -506,7 +506,7 @@ export const services: Service[] = [
       ]
     },
     results: {
-      title: "What You can Expect from N Fullers paving and improvements for Your Natural Stone Paving Project in Haywards Heath",
+      title: "What You can Expect from N Fullers paving and improvements for Your Natural Stone Paving Project in Parish",
       subtitle: "When you trust N Fullers paving and improvements with your natural stone paving, you’re selecting a team of highly skilled professionals dedicated to exceptional craftsmanship and premium quality materials. What Sets Our Natural Stone Paving Services Apart:",
       items: [
         { title: "Bespoke Design & Consultation", text: "Tailored to meet your individual style, budget and outdoor space requirements." },

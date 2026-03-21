@@ -17,7 +17,7 @@ export default function Home() {
   const homeSlides = [
     {
       image: "/images/tarmac1.webp",
-      title: "Highly Rated Driveway Company in Haywards Heath",
+      title: "Highly Rated Driveway Company in Parish",
       subtitle: "Professional Paving & Groundworks Specialists",
       bullets: ["Free Site Surveys & Quotes", "Top Quality Materials", "Experienced & Qualified Workforce", "All Work Insured & Guaranteed"]
     },
@@ -47,10 +47,10 @@ export default function Home() {
       
       <IntroSection 
         data={{
-          title: "Driveway, Paving & Surfacing Contractors in Haywards Heath",
+          title: "Driveway, Paving & Surfacing Contractors in Parish",
           subtitle: "Local Driveway Installation, Repairs & Maintenance Specialists",
           text: [
-            `At N Fullers paving and improvements, we specialise in transforming outdoor spaces with expert paving solutions. With years of experience enhancing properties across Haywards Heath and beyond, we offer a seamless service from initial design to professional installation.`,
+            `At N Fullers paving and improvements, we specialise in transforming outdoor spaces with expert paving solutions. With years of experience enhancing properties across Parish and beyond, we offer a seamless service from initial design to professional installation.`,
             "Not sure which driveway option is best for you? Our specialists will assess your space, offer expert advice and provide a no-obligation quote. Whether you want a classic, modern or bespoke driveway design, we are here to help.",
             "Contact N Fullers paving and improvements today and let’s start designing your perfect driveway."
           ],
@@ -69,14 +69,14 @@ export default function Home() {
           <FeaturesSection 
             data={{
               title: "Why Choose Fullers Paving?",
-              description: "As one of the leading driveway and paving companies in Haywards Heath, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+              description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
               stats: [
                 { value: "200+", label: "Patios" },
                 { value: "300+", label: "Driveways" },
                 { value: "500+", label: "Happy Customers" }
               ],
               features: [
-                "Local Haywards Heath company",
+                "Local Parish company",
                 "Trusted reviews",
                 "100% Satisfaction Guarantee",
                 "Free No-Obligation Quotes",

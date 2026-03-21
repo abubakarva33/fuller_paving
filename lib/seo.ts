@@ -13,13 +13,13 @@ export const generateLocalBusinessSchema = () => {
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "14 Sergison Rd",
-      "addressLocality": "Haywards Heath",
+      "addressLocality": "Parish",
       "postalCode": "RH16 1HS",
       "addressCountry": "GB"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 51.002, // Approximate for Haywards Heath
+      "latitude": 51.002, // Approximate for Parish
       "longitude": -0.101
     },
     "openingHoursSpecification": {
@@ -50,7 +50,7 @@ export const generateServiceSchema = (service: Service) => {
     },
     "areaServed": {
       "@type": "State",
-      "name": "Haywards Heath"
+      "name": "Parish"
     },
     "description": service.intro.text[0]
   };

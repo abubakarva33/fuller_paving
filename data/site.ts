@@ -1,8 +1,8 @@
 export const siteConfig = {
-  companyName: "Fullers Paving & Improvements",
-  phone: "", // Using from prototype as it looks active
+  companyName: "N Fullers Paving & Improvements",
+  phone: "+447300963972", // Using from prototype as it looks active
   email: "info@nfullerspavingandimprovements.co.uk", // Derived from BRAND.md domain
-  address: "14 Sergison Rd, Haywards Heath RH16 1HS",
+  address: "New Buildings Farm, Parish Ln RH11 9AA",
   domain: "www.nfullerspavingandimprovements.co.uk",
   colors: {
     primary: "#1F3F77", // Blue
