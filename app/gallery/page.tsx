@@ -5,6 +5,9 @@ import { GalleryContent } from "@/components/GalleryContent";
 export const metadata: Metadata = {
   title: "Gallery | N Fullers Paving & Improvements",
   description: "View our recent paving and driveway projects across West Sussex. Block Paving, Resin, Tarmac and more.",
+  alternates: {
+    canonical: "/gallery",
+  },
 };
 
 const galleryCategories = [

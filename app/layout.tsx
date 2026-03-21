@@ -12,12 +12,26 @@ import { generateLocalBusinessSchema } from "@/lib/seo";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.domain || "https://example.com"),
   title: {
     default: siteConfig.companyName,
     template: `%s | ${siteConfig.companyName}`,
   },
   description: "Professional paving and driveway contractor providing high-quality resurfacing services.",
   keywords: ["paving", "driveways", "tarmac", "resin bound", "block paving", "contractor"],
+  openGraph: {
+    title: siteConfig.companyName,
+    description: "Professional paving and driveway contractor providing high-quality resurfacing services.",
+    url: siteConfig.domain,
+    siteName: siteConfig.companyName,
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.companyName,
+    description: "Professional paving and driveway contractor providing high-quality resurfacing services.",
+  },
 };
 
 export default function RootLayout({

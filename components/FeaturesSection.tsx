@@ -93,7 +93,7 @@ export const FeaturesSection = ({ data }: FeaturesProps) => {
             >
               <Image
                 src={img}
-                alt={`Project gallery image ${idx + 1}`}
+                alt={`${data.title} project gallery image ${idx + 1}`}
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -140,7 +140,7 @@ export const FeaturesSection = ({ data }: FeaturesProps) => {
               <div className="relative w-full h-full">
                 <Image
                   src={selectedImage}
-                  alt="Feature enlarged view"
+                  alt={`${data.title} feature enlarged view`}
                   fill
                   className="object-contain"
                   priority

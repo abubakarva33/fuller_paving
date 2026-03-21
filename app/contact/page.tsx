@@ -6,6 +6,9 @@ import { IconMapper } from "@/components/IconMapper";
 export const metadata: Metadata = {
   title: "Contact",
   description: "Get in touch with Fullers Paving & Improvements for a free site assessment and quote.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

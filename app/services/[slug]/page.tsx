@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { services } from "@/data/services";
 import { siteConfig } from "@/data/site";
+import { generateServiceSchema } from "@/lib/seo";
 import { HeroSection } from "@/components/HeroSection";
 import { IntroSection } from "@/components/IntroSection";
 import { FeaturesSection } from "@/components/FeaturesSection";
@@ -31,6 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: service.title,
     description: `Professional ${service.title} services by ${siteConfig.companyName}. Expert installation and guaranteed quality.`,
+    alternates: {
+      canonical: `/services/${params.slug}`,
+    },
   };
 }
 
@@ -41,8 +45,14 @@ export default function ServicePage({ params }: Props) {
     notFound();
   }
 
+  const jsonLd = generateServiceSchema(service);
+
   return (
     <main className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <HeroSection data={service.hero} />
       <IntroSection data={service.intro} />
       <CTABanner text={`Free ${service.title} Quote`} phone={siteConfig.phone} />

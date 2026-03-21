@@ -38,7 +38,7 @@ export const GalleryContent = ({ categories }: GalleryContentProps) => {
                 >
                   <Image 
                     src={src} 
-                    alt={`${category.title} ${imgIdx + 1}`} 
+                    alt={`${category.title} driveway paving installation ${imgIdx + 1}`} 
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -74,7 +74,7 @@ export const GalleryContent = ({ categories }: GalleryContentProps) => {
               <div className="relative w-full h-full">
                 <Image
                   src={selectedImage}
-                  alt="Gallery enlarged view"
+                  alt="Gallery enlarged high quality driveway paving view"
                   fill
                   className="object-contain"
                   priority

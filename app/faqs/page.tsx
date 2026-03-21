@@ -6,6 +6,9 @@ import { faqs } from "@/data/faqs";
 export const metadata: Metadata = {
   title: "FAQs",
   description: "Frequently asked questions about our paving and driveway services.",
+  alternates: {
+    canonical: "/faqs",
+  },
 };
 
 export default function FAQsPage() {

@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { siteConfig } from "@/data/site";
 import { services } from "@/data/services";
 import { faqs as faqsData } from "@/data/faqs";
@@ -12,6 +13,14 @@ import { WavyDivider } from "@/components/WavyDivider";
 import { ServicesSection } from "@/components/ServicesSection";
 import { ProcessResultsSection } from "@/components/ProcessResultsSection";
 import { homeResults } from "@/data/services";
+
+export const metadata: Metadata = {
+  title: "Driveway, Paving & Surfacing Contractors in Parish",
+  description: "Professional paving and driveway contractor providing high-quality resurfacing services.",
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Home() {
   const homeSlides = [
