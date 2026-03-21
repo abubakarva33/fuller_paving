@@ -79,26 +79,27 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      title: "Why Choose a Tarmac Driveway?",
+      description: "Tarmac remains one of the most popular choices for driveways in Parish due to its incredible durability and cost-effectiveness. It provides a smooth, level surface that's perfect for both modern and traditional homes. Our expert team ensures proper groundwork and drainage for a finish that lasts for years.",
       stats: [
-        { value: "200+", label: "Patios" },
         { value: "300+", label: "Driveways" },
-        { value: "500+", label: "Happy Customers" }
+        { value: "10+", label: "Year Guarantee" },
+        { value: "100%", label: "Satisfaction" }
       ],
       features: [
-        "Local Parish company",
-        "Trusted reviews",
-        "100% Satisfaction Guarantee",
-        "Free No-Obligation Quotes",
-        "No up-front fees",
-        "Minimum 60 months guarantee"
+        "Highly durable & weather resistant",
+        "Cost-effective surfacing solution",
+        "Quick to install",
+        "Low maintenance requirement",
+        "Classic aesthetic appeal",
+        "Excellent water drainage"
       ],
       gallery: [
-        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
-        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
-        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
-        "/images/local-tar2.webp"
+        "/images/tarmac1.webp",
+        "/images/tarmac2.webp",
+        "/images/tarmac3.webp",
+        "/images/tarmac4.webp",
+        "/images/tarmac5.webp"
       ]
     },
     process: {
@@ -165,26 +166,27 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      title: "The Beauty & Versatility of Block Paving",
+      description: "Block paving offers limitless design possibilities, allowing you to create a unique look for your property. Whether you prefer traditional or contemporary styles, our wide range of patterns and colors ensures a bespoke finish. Beyond aesthetics, block paving is renowned for its strength and long-term durability.",
       stats: [
-        { value: "200+", label: "Patios" },
-        { value: "300+", label: "Driveways" },
-        { value: "500+", label: "Happy Customers" }
+        { value: "500+", label: "Custom Designs" },
+        { value: "10+", label: "Year Guarantee" },
+        { value: "100%", label: "Skilled Team" }
       ],
       features: [
-        "Local Parish company",
-        "Trusted reviews",
-        "100% Satisfaction Guarantee",
-        "Free No-Obligation Quotes",
-        "No up-front fees",
-        "Minimum 60 months guarantee"
+        "Infinite design possibilities",
+        "High-strength installation",
+        "Easy to repair individual blocks",
+        "Permeable drainage options",
+        "Increases property value",
+        "Premium curb appeal"
       ],
       gallery: [
-        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
-        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
-        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
-        "/images/local-tar2.webp"
+        "/images/block-paving1.webp",
+        "/images/block-paving2.webp",
+        "/images/block-paving3.webp",
+        "/images/block-paving4.webp",
+        "/images/block-paving5.webp"
       ]
     },
     benefits: {
@@ -242,26 +244,27 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      title: "Modern & Seamless Resin Bound Surfaces",
+      description: "Resin bound driveways provide a smooth, flat finish without the loose stones of traditional gravel. It is highly permeable, allowing water to drain through the surface naturally, which complies with SUDS regulations. With a massive choice of stone aggregates, we can create a sophisticated look that complements any property.",
       stats: [
-        { value: "200+", label: "Patios" },
-        { value: "300+", label: "Driveways" },
-        { value: "500+", label: "Happy Customers" }
+        { value: "40+", label: "Aggregate Colours" },
+        { value: "100%", label: "Permeable" },
+        { value: "UV", label: "Stable Finish" }
       ],
       features: [
-        "Local Parish company",
-        "Trusted reviews",
-        "100% Satisfaction Guarantee",
-        "Free No-Obligation Quotes",
-        "No up-front fees",
-        "Minimum 60 months guarantee"
+        "No loose stones",
+        "Fully SUDS compliant",
+        "Weed and frost resistant",
+        "Seamless, smooth finish",
+        "Massive range of stone options",
+        "Durable & long-lasting"
       ],
       gallery: [
-        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
-        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
-        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
-        "/images/local-tar2.webp"
+        "/images/resin-bound1.webp",
+        "/images/resin-bound2.webp",
+        "/images/resin-bound3.webp",
+        "/images/resin-bound4.webp",
+        "/images/resin-driveway3.webp"
       ]
     },
     benefits: {
@@ -317,26 +320,27 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      title: "Traditional Aesthetics with Tar & Chip",
+      description: "Tar and chip (or hot bitumen and shingle) is a fantastic way to achieve a traditional gravel look with much lower maintenance. The stones are sealed into the surface using hot bitumen, preventing them from scattering. It's an excellent choice for larger driveways and rural properties.",
       stats: [
-        { value: "200+", label: "Patios" },
-        { value: "300+", label: "Driveways" },
-        { value: "500+", label: "Happy Customers" }
+        { value: "Eco", label: "Friendly" },
+        { value: "Budget", label: "Friendly" },
+        { value: "Top", label: "Quality" }
       ],
       features: [
-        "Local Parish company",
-        "Trusted reviews",
-        "100% Satisfaction Guarantee",
-        "Free No-Obligation Quotes",
-        "No up-front fees",
-        "Minimum 60 months guarantee"
+        "Traditional country look",
+        "Lower cost than resin",
+        "Excellent vehicle grip",
+        "Durable natural stone finish",
+        "Quick installation process",
+        "Stones sealed in place"
       ],
       gallery: [
-        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
-        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
-        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
-        "/images/local-tar2.webp"
+        "/images/local-tar1.webp",
+        "/images/local-tar2.webp",
+        "/images/local-tar3.webp",
+        "/images/local-tar4.webp",
+        "/images/local-tar5.webp"
       ]
     },
     benefits: {
@@ -392,26 +396,27 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      title: "Classic & Timeless Gravel Driveways",
+      description: "Gravel driveways are an affordable and classic surfacing option that works particularly well for large properties. They offer excellent drainage and add a distinct crunch sound that provides added security to your home. We use high-quality aggregates and professional membranes to ensure longevity.",
       stats: [
-        { value: "200+", label: "Patios" },
-        { value: "300+", label: "Driveways" },
-        { value: "500+", label: "Happy Customers" }
+        { value: "Fast", label: "Installation" },
+        { value: "Low", label: "Cost" },
+        { value: "100%", label: "Natural" }
       ],
       features: [
-        "Local Parish company",
-        "Trusted reviews",
-        "100% Satisfaction Guarantee",
-        "Free No-Obligation Quotes",
-        "No up-front fees",
-        "Minimum 60 months guarantee"
+        "Very cost-effective",
+        "Natural stone aesthetic",
+        "Audible security alert",
+        "Expert drainage control",
+        "Wide choice of aggregates",
+        "Quick property transformation"
       ],
       gallery: [
-        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
-        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
-        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
-        "/images/local-tar2.webp"
+        "/images/gravel.webp",
+        "/images/gravel3.webp",
+        "/images/driveway-for-home.webp",
+        "/images/tarmac4.webp",
+        "/images/block-paving7.webp"
       ]
     },
     benefits: {
@@ -467,26 +472,27 @@ export const services: Service[] = [
       badges: true
     },
     features: {
-      title: "Why Choose Fullers Paving?",
-      description: "As one of the leading driveway and paving companies in Parish, our expert paving services add character and real value to your home. Our skilled craftsmen and tradesmen offer free advice, planning and design services which helps to ensure your home improvements live up to everything you hoped for. Our work conforms to British Standards and is fully guaranteed for your peace of mind.",
+      title: "The Luxury of Natural Stone Paving",
+      description: "Natural stone paving like Indian Sandstone or Granite adds a touch of luxury and timeless elegance to any home. Each stone is unique in its color and texture, creating a truly one-of-a-kind surface. It is incredibly hard-wearing and looks even better as it ages.",
       stats: [
-        { value: "200+", label: "Patios" },
-        { value: "300+", label: "Driveways" },
-        { value: "500+", label: "Happy Customers" }
+        { value: "Unique", label: "Individual Stones" },
+        { value: "High", label: "Property Value" },
+        { value: "Top", label: "Luxury Finish" }
       ],
       features: [
-        "Local Parish company",
-        "Trusted reviews",
-        "100% Satisfaction Guarantee",
-        "Free No-Obligation Quotes",
-        "No up-front fees",
-        "Minimum 60 months guarantee"
+        "Timeless elegant look",
+        "Increases house value",
+        "Extreme durability",
+        "Unique natural patterns",
+        "Weather & slip resistant",
+        "Low maintenance luxury"
       ],
       gallery: [
-        "/images/tarmac1.webp", "/images/block-paving1.webp", "/images/resin-bound1.webp",
-        "/images/local-tar1.webp", "/images/gravel.webp", "/images/natural-stone1.webp",
-        "/images/tarmac2.webp", "/images/block-paving2.webp", "/images/resin-bound2.webp",
-        "/images/local-tar2.webp"
+        "/images/natural-stone1.webp",
+        "/images/natural-stone2.webp",
+        "/images/natural-stone3.webp",
+        "/images/natural-stone4.webp",
+        "/images/natural-stone5.webp"
       ]
     },
     benefits: {

@@ -1,56 +1,92 @@
 import { Metadata } from "next";
 import { HeroSection } from "@/components/HeroSection";
-import { CTABanner } from "@/components/CTABanner";
-import { siteConfig } from "@/data/site";
-import Image from "next/image";
+import { GalleryContent } from "@/components/GalleryContent";
 
 export const metadata: Metadata = {
-  title: "Gallery",
-  description: "View our recent paving and driveway projects across Parish.",
+  title: "Gallery | N Fullers Paving & Improvements",
+  description: "View our recent paving and driveway projects across West Sussex. Block Paving, Resin, Tarmac and more.",
 };
 
-const images = [
-  "https://images.unsplash.com/photo-1584888288596-f9e42be007d4?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1621251921200-c9a405a74d2b?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1590486803833-2c709d21e3ca?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1517646287270-a5a069e83693?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1504307651254-35680f3366d4?auto=format&fit=crop&q=80&w=800",
+const galleryCategories = [
+  {
+    title: "Block Paving Driveways",
+    images: [
+      "/images/block-paving1.webp",
+      "/images/block-paving2.webp",
+      "/images/block-paving3.webp",
+      "/images/block-paving4.webp",
+      "/images/block-paving5.webp",
+      "/images/block-paving6.webp",
+      "/images/block-paving7.webp",
+      "/images/driveway-for-home.webp",
+    ],
+  },
+  {
+    title: "Natural Stone",
+    images: [
+      "/images/natural-stone1.webp",
+      "/images/natural-stone2.webp",
+      "/images/natural-stone3.webp",
+      "/images/natural-stone4.webp",
+      "/images/natural-stone5.webp",
+    ],
+  },
+  {
+    title: "Resin Bound Driveways",
+    images: [
+      "/images/resin-bound1.webp",
+      "/images/resin-bound2.webp",
+      "/images/resin-bound3.webp",
+      "/images/resin-bound4.webp",
+      "/images/resin-driveway3.webp",
+    ],
+  },
+  {
+    title: "Tarmac Driveways",
+    images: [
+      "/images/tarmac1.webp",
+      "/images/tarmac2.webp",
+      "/images/tarmac3.webp",
+      "/images/tarmac4.webp",
+      "/images/tarmac5.webp",
+      "/images/tarmac6.webp",
+    ],
+  },
+  {
+    title: "Gravel & Shingle",
+    images: [
+      "/images/gravel.webp",
+      "/images/gravel3.webp",
+    ],
+  },
+  {
+    title: "Tar & Chip",
+    images: [
+      "/images/local-tar1.webp",
+      "/images/local-tar2.webp",
+      "/images/local-tar3.webp",
+      "/images/local-tar4.webp",
+      "/images/local-tar5.webp",
+    ],
+  },
 ];
 
 export default function GalleryPage() {
   return (
-    <main className="min-h-screen bg-bg">
-      {/* <HeroSection 
+    <main className="min-h-screen bg-white">
+      <HeroSection 
         data={[
           {
             image: "/images/block-paving3.webp",
-            title: "Our Project Gallery",
-            subtitle: "Seeing is Believing - Our Recent Transformations",
-            bullets: ["Block Paving", "Resin Bound", "Tarmac", "Tar & Chip"]
+            title: "Expert Craftsmanship",
+            subtitle: "View Our Recent Transformations",
+            bullets: ["Driveways", "Patios", "Paths", "Landscaping"]
           }
         ]} 
-      /> */}
+      />
       
-      <section className="py-24 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {images.map((src, idx) => (
-              <div key={idx} className="group relative rounded-3xl overflow-hidden shadow-xl aspect-[4/3] border-4 border-white">
-                <Image 
-                  src={src} 
-                  alt={`Project ${idx + 1}`} 
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <GalleryContent categories={galleryCategories} />
 
-      {/* <CTABanner text="Want a Driveway Like These?" phone={siteConfig.phone} /> */}
     </main>
   );
 }

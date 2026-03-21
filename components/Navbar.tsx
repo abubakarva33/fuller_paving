@@ -19,7 +19,7 @@ export const Navbar = () => {
         <div className="flex justify-between items-center px-2">
 
           {/* Mobile Menu Toggle */}
-          <Link href="/" className="flex items-center group cursor-pointer">
+          <Link href="/" className="flex items-center group cursor-pointer md:hidden">
             <Image src="/images/logo.webp" alt="Logo" width={40} height={40} />
           </Link>
           <button 

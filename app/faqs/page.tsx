@@ -1,8 +1,6 @@
 import { Metadata } from "next";
 import { FAQSection } from "@/components/FAQSection";
 import { QuickQuoteForm } from "@/components/QuickQuoteForm";
-import { CTABanner } from "@/components/CTABanner";
-import { siteConfig } from "@/data/site";
 import { faqs } from "@/data/faqs";
 
 export const metadata: Metadata = {
@@ -22,7 +20,6 @@ export default function FAQsPage() {
       
       <QuickQuoteForm />
       
-      <CTABanner text="Have More Questions?" phone={siteConfig.phone} />
     </main>
   );
 }
