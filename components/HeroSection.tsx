@@ -76,7 +76,7 @@ export const HeroSection = ({ data }: HeroProps) => {
                   className="flex items-center text-white bg-white/10 px-6 py-3 rounded-full border border-white/20 backdrop-blur-md shadow-xl"
                 >
                   <IconMapper name="CheckCircle2" className="w-5 h-5 text-accent mr-3" />
-                  <span className="text-sm md:text-base font-bold uppercase tracking-wider">
+                  <span className="text-[11px] md:text-base font-bold uppercase tracking-wider">
                     {bullet}
                   </span>
                 </motion.div>

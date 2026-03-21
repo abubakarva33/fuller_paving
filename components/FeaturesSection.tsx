@@ -71,7 +71,7 @@ export const FeaturesSection = ({ data }: FeaturesProps) => {
             <div className="bg-white/20 p-2 rounded-full">
               <Phone className="w-5 h-5 fill-current" />
             </div>
-            <span>Call {data.phone} for a new driveway quote</span>
+            <span>Call for a new driveway quote</span>
           </a>
         </div>
 

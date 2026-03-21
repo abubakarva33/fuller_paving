@@ -37,7 +37,7 @@ export const Footer = () => (
       <div>
         <h3 className="text-white text-lg font-bold mb-6 uppercase text-accent">Accreditations</h3>
         <p className="mb-6 text-sm leading-relaxed">We are a trusted local contractor with a reputation for excellence across the region.</p>
-         <div className="flex space-x-4 bg-white p-3 rounded-lg inline-flex items-center shadow-inner">
+         <div className="hidden md:flex space-x-4 bg-white p-3 rounded-lg inline-flex items-center shadow-inner">
              <div className="flex items-center space-x-2">
                 <IconMapper name="CheckCircle2" className="w-6 h-6 text-blue-600"/>
                 <div className="flex flex-col leading-none">

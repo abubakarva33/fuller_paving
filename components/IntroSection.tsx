@@ -62,7 +62,7 @@ export const IntroSection = ({ data }: IntroProps) => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.5 }}
-            className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-2xl flex items-center space-x-6 border border-gray-100"
+            className="!scale-[80%] md:!scale-100 absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-2xl flex items-center space-x-6 border border-gray-100"
           >
              <div className="text-center">
                 <p className="text-[10px] uppercase font-black text-gray-400 mb-2 tracking-widest">Approved By</p>

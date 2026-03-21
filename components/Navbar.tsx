@@ -15,10 +15,13 @@ export const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-primary text-white shadow-xl">
-      <div className="max-w-7xl mx-auto py-4">
-        <div className="flex justify-between items-center">
+      <div className="max-w-7xl mx-auto py-2 md:py-4">
+        <div className="flex justify-between items-center px-2">
 
           {/* Mobile Menu Toggle */}
+          <Link href="/" className="flex items-center group cursor-pointer">
+            <Image src="/images/logo.webp" alt="Logo" width={40} height={40} />
+          </Link>
           <button 
             className="lg:hidden text-accent"
             onClick={() => setIsOpen(!isOpen)}

@@ -21,7 +21,7 @@ const images = [
 export default function GalleryPage() {
   return (
     <main className="min-h-screen bg-bg">
-      <HeroSection 
+      {/* <HeroSection 
         data={[
           {
             image: "/images/block-paving3.webp",
@@ -30,7 +30,7 @@ export default function GalleryPage() {
             bullets: ["Block Paving", "Resin Bound", "Tarmac", "Tar & Chip"]
           }
         ]} 
-      />
+      /> */}
       
       <section className="py-24 px-4">
         <div className="max-w-7xl mx-auto">
@@ -50,7 +50,7 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      <CTABanner text="Want a Driveway Like These?" phone={siteConfig.phone} />
+      {/* <CTABanner text="Want a Driveway Like These?" phone={siteConfig.phone} /> */}
     </main>
   );
 }

@@ -39,8 +39,8 @@ export const FAQSection = ({ data }: FAQProps) => {
                 className={`w-full text-left p-8 focus:outline-none flex justify-between items-center transition-colors ${openIdx === idx ? 'bg-primary text-white' : 'text-primary'}`}
                 onClick={() => setOpenIdx(openIdx === idx ? null : idx)}
               >
-                <span className="font-black text-lg uppercase tracking-tight pr-8">{faq.q}</span>
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center transition-transform ${openIdx === idx ? 'bg-accent text-white rotate-180' : 'bg-bg text-primary'}`}>
+                <span className="font-black text-lg  tracking-tight pr-8">{faq.q}</span>
+                <div className={`min-w-8 min-h-8 rounded-full flex items-center justify-center transition-transform ${openIdx === idx ? 'bg-accent text-white rotate-180' : 'bg-bg text-primary'}`}>
                   <IconMapper name="ChevronDown" className="w-5 h-5" />
                 </div>
               </button>
