@@ -1,6 +1,6 @@
 export const siteConfig = {
   companyName: "N Fullers Paving & Improvements",
-  phone: "+447300963972", // Using from prototype as it looks active
+  phone: "07300963972", // Using from prototype as it looks active
   email: "info@nfullerspavingandimprovements.co.uk", // Derived from BRAND.md domain
   address: "New Buildings Farm, Parish Ln RH11 9AA",
   domain: "https://www.nfullerspavingandimprovements.co.uk",
