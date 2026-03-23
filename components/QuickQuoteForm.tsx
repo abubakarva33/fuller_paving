@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { siteConfig } from "@/data/site";
 import { useState } from "react";
 
@@ -10,6 +10,37 @@ interface QuickQuoteFormProps {
 
 export const QuickQuoteForm = ({ serviceName = "driveway / surfacing" }: QuickQuoteFormProps) => {
   const [agreed, setAgreed] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setErrorMsg("");
+    
+    const form = e.currentTarget;
+    try {
+      const formData = new FormData(form);
+      const res = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData as any).toString(),
+      });
+      
+      if (res.ok) {
+        setIsSuccess(true);
+        form.reset();
+        setAgreed(false);
+      } else {
+        throw new Error("Form submission failed");
+      }
+    } catch (error) {
+      setErrorMsg("Something went wrong. Please try again later.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <section className="pb-24 pt-12 bg-white px-4">
@@ -39,6 +70,7 @@ export const QuickQuoteForm = ({ serviceName = "driveway / surfacing" }: QuickQu
           name="contact" 
           method="POST" 
           data-netlify="true"
+          onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -95,14 +127,47 @@ export const QuickQuoteForm = ({ serviceName = "driveway / surfacing" }: QuickQu
               </span>
             </label>
             
+            {errorMsg && (
+              <p className="text-red-500 font-medium text-center">{errorMsg}</p>
+            )}
             <button 
               type="submit"
-              className="bg-accent text-white font-black py-4 px-16 rounded-lg hover:bg-orange-600 transition-all shadow-md uppercase tracking-widest text-lg"
+              disabled={isSubmitting}
+              className="bg-accent text-white font-black py-4 px-16 rounded-lg hover:bg-orange-600 transition-all shadow-md uppercase tracking-widest text-lg disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Send
+              {isSubmitting ? "Sending..." : "Send"}
             </button>
           </div>
         </form>
+
+        <AnimatePresence>
+          {isSuccess && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
+              <motion.div 
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.95 }}
+                className="bg-white p-8 md:p-12 rounded-[32px] shadow-2xl max-w-lg w-full text-center relative"
+              >
+                <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <h3 className="text-3xl font-black text-gray-900 mb-4 uppercase tracking-tight">Thank You!</h3>
+                <p className="text-gray-600 text-lg mb-8">
+                  Your quote request has been received. We'll be in touch with you shortly.
+                </p>
+                <button 
+                  onClick={() => setIsSuccess(false)}
+                  className="bg-accent text-white font-bold py-4 px-8 rounded-xl hover:bg-orange-600 transition-all w-full uppercase tracking-widest text-lg"
+                >
+                  Close
+                </button>
+              </motion.div>
+            </div>
+          )}
+        </AnimatePresence>
       </div>
     </section>
   );
