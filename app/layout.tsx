@@ -13,6 +13,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.domain || "https://example.com"),
+  icons: {
+    icon: '/images/logo.webp',
+  },
   title: {
     default: siteConfig.companyName,
     template: `%s | ${siteConfig.companyName}`,

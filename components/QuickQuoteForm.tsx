@@ -34,34 +34,49 @@ export const QuickQuoteForm = ({ serviceName = "driveway / surfacing" }: QuickQu
           </motion.p>
         </div>
 
-        <form className="max-w-4xl mx-auto space-y-4" onSubmit={(e) => e.preventDefault()}>
+        <form 
+          className="max-w-4xl mx-auto space-y-4" 
+          name="contact" 
+          method="POST" 
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <input 
               type="text" 
+              name="name"
               placeholder="Name" 
+              required
               className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400" 
             />
             <input 
               type="tel" 
+              name="phone"
               placeholder="Phone" 
+              required
               className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400" 
             />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-4">
             <input 
               type="email" 
+              name="email"
               placeholder="Email" 
+              required
               className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400" 
             />
             <input 
               type="text" 
+              name="postcode"
               placeholder="Postcode" 
               className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400" 
             />
           </div>
           <textarea 
+            name="message"
             placeholder="How can we help?" 
             rows={5} 
+            required
             className="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-accent text-gray-900 transition-all placeholder:text-gray-400 resize-none h-40"
           ></textarea>
           
@@ -69,8 +84,10 @@ export const QuickQuoteForm = ({ serviceName = "driveway / surfacing" }: QuickQu
             <label className="flex items-center gap-3 cursor-pointer group">
               <input 
                 type="checkbox" 
+                name="agreed"
                 checked={agreed}
                 onChange={() => setAgreed(!agreed)}
+                required
                 className="w-5 h-5 rounded border-gray-300 text-accent focus:ring-accent transition-all cursor-pointer"
               />
               <span className="text-gray-600 text-sm font-medium">
@@ -79,6 +96,7 @@ export const QuickQuoteForm = ({ serviceName = "driveway / surfacing" }: QuickQu
             </label>
             
             <button 
+              type="submit"
               className="bg-accent text-white font-black py-4 px-16 rounded-lg hover:bg-orange-600 transition-all shadow-md uppercase tracking-widest text-lg"
             >
               Send
