@@ -72,6 +72,28 @@ const galleryCategories = [
       "/images/local-tar5.webp",
     ],
   },
+  {
+    title: "Roofing",
+    images: [
+      "/images/roofing1.webp",
+      "/images/roofing2.webp",
+      "/images/roofing3.webp",
+      "/images/roofing4.webp",
+      "/images/roofing5.webp",
+      "/images/roofing6.webp",
+      "/images/roofing7.webp",
+      "/images/roofing8.webp",
+      "/images/roofing9.webp",
+      "/images/roofing10.webp",
+      "/images/roofing11.webp",
+      "/images/roofing12.webp",
+      "/images/roofing13.webp",
+      "/images/roofing14.webp",
+      "/images/roofing15.webp",
+      "/images/roofing16.webp",
+      "/images/roofing17.webp",
+    ],
+  },
 ];
 
 export default function GalleryPage() {

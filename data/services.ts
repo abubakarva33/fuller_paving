@@ -524,5 +524,81 @@ export const services: Service[] = [
         { title: "Meticulous Attention to Detail", text: "Ensuring every aspect of the project is completed to the highest standard." }
       ]
     }
+  },
+  {
+    slug: "roofing",
+    title: "Professional Roofing Services",
+    hero: [
+      {
+        image: "/images/roofing1.webp",
+        title: "Expert Roofing Services in Parish",
+        subtitle: "Quality Repairs, Installations & Maintenance",
+        bullets: ["New Roofs & Re-roofing", "Flat Roof Specialists", "Guttering, Fascias & Soffits", "Fully Insured & Guaranteed"]
+      },
+      {
+        image: "/images/roofing2.webp",
+        title: "Reliable Local Roofers Parish",
+        subtitle: "Protecting Your Home with Expert Craftsmanship",
+        bullets: ["Free Roof Inspections", "Emergency Roof Repairs", "Top Quality Materials", "All Work Guaranteed"]
+      }
+    ],
+    intro: {
+      title: "Comprehensive Roofing Solutions in Parish",
+      subtitle: "Your Trusted Local Roofing Specialists",
+      text: [
+        "At N Fullers paving and improvements, we extend our expertise beyond groundworks to provide high-quality roofing services. A well-maintained roof is essential for protecting your property from the elements and ensuring long-term structural integrity.",
+        "Whether you need a minor repair, a complete new roof installation, or maintenance for your gutters and fascias, our experienced team delivers professional results using the finest materials. We pride ourselves on our attention to detail and commitment to customer satisfaction."
+      ],
+      image: "/images/roofing3.webp",
+      badges: true
+    },
+    features: {
+      title: "Quality Roofing for Every Property",
+      description: "We offer a wide range of roofing services tailored to meet the specific needs of residential and commercial properties in Parish. From traditional tile and slate roofs to modern flat roofing solutions, we ensure your roof is durable, weather-resistant, and aesthetically pleasing.",
+      stats: [
+        { value: "20+", label: "Years Experience" },
+        { value: "100%", label: "Reliable" },
+        { value: "Top", label: "Workmanship" }
+      ],
+      features: [
+        "Complete new roof installations",
+        "Expert roof repairs & maintenance",
+        "Flat roofing specialists (EPDM, GRP, Felt)",
+        "Chimney repairs & repointing",
+        "Guttering, fascias & soffits",
+        "Leadwork & flashing"
+      ],
+      gallery: [
+        "/images/roofing1.webp",
+        "/images/roofing2.webp",
+        "/images/roofing3.webp",
+        "/images/roofing4.webp",
+        "/images/roofing5.webp"
+      ]
+    },
+    benefits: {
+      title: "Why Choose Our Roofing Services?",
+      text: [
+        "Choosing the right roofer is crucial for the safety and value of your property. We combine years of experience with a dedication to quality that sets us apart from the competition."
+      ],
+      items: [
+        { title: "Expert Craftsmanship", text: "Our skilled roofers are trained in the latest techniques and use high-quality materials." },
+        { title: "Durable & Weatherproof", text: "We ensure your roof can withstand the harshest weather conditions." },
+        { title: "Enhanced Curb Appeal", text: "A new or well-maintained roof significantly improves the look of your home." },
+        { title: "Fully Guaranteed", text: "All our roofing work comes with a comprehensive guarantee for your peace of mind." },
+        { title: "Free Roof Surveys", text: "We provide honest assessments and no-obligation quotes for all projects." },
+        { title: "Competitive Pricing", text: "High-quality roofing solutions at affordable and transparent prices." }
+      ]
+    },
+    results: {
+      title: "Protecting Your Home from Top to Bottom",
+      subtitle: "We believe in providing a complete service that covers every aspect of your roof's health. Here's what you can expect when you choose us:",
+      items: [
+        { title: "Thorough Inspections", text: "Identifying issues before they become costly problems." },
+        { title: "Bespoke Solutions", text: "Tailoring our services to match your property's style and requirements." },
+        { title: "Efficient Execution", text: "Completing projects on time and with minimal disruption to your daily life." },
+        { title: "Clear Communication", text: "Keeping you informed at every stage of the process." }
+      ]
+    }
   }
 ];

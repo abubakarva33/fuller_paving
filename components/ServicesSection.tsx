@@ -35,6 +35,11 @@ const servicesList = [
     image: "/images/natural-stone3.webp",
     href: "/services/natural-stone",
   },
+  {
+    title: "Roofing",
+    image: "/images/roofing3.webp",
+    href: "/services/roofing",
+  },
 ];
 
 export const ServicesSection = () => {
